@@ -1,0 +1,3259 @@
+{
+  "honeybee-adhesion": [
+    {
+      "id": "honeybee-adhesion-1",
+      "title": "Honeybee footpad observation",
+      "sourceType": "PPT",
+      "items": [
+        {
+          "id": "PPT-image81",
+          "source": "PPT · slide 13",
+          "src": "/research/gallery/PPT-image81.png",
+          "thumbnail": "/research/gallery/PPT-image81-preview.webp",
+          "width": 319,
+          "height": 396,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-media2",
+          "source": "PPT · slide 13",
+          "src": "/research/gallery/PPT-media2.mp4",
+          "kind": "video",
+          "size": 75.1
+        },
+        {
+          "id": "PPT-image80",
+          "source": "PPT · slide 13",
+          "src": "/research/gallery/PPT-image80.png",
+          "thumbnail": "/research/gallery/PPT-image80-preview.webp",
+          "width": 1024,
+          "height": 768,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image79",
+          "source": "PPT · slide 13",
+          "src": "/research/gallery/PPT-image79.gif",
+          "thumbnail": "/research/gallery/PPT-image79-preview.webp",
+          "width": 294,
+          "height": 619,
+          "kind": "gif"
+        },
+        {
+          "id": "PPT-image113",
+          "source": "PPT · slide 25",
+          "src": "/research/gallery/PPT-image113.png",
+          "thumbnail": "/research/gallery/PPT-image113-preview.webp",
+          "width": 1096,
+          "height": 653,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image112",
+          "source": "PPT · slide 25",
+          "src": "/research/gallery/PPT-image112.png",
+          "thumbnail": "/research/gallery/PPT-image112-preview.webp",
+          "width": 1079,
+          "height": 844,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image117",
+          "source": "PPT · slide 25",
+          "src": "/research/gallery/PPT-image117.png",
+          "thumbnail": "/research/gallery/PPT-image117-preview.webp",
+          "width": 1409,
+          "height": 902,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image111",
+          "source": "PPT · slide 25",
+          "src": "/research/gallery/PPT-image111.png",
+          "thumbnail": "/research/gallery/PPT-image111-preview.webp",
+          "width": 813,
+          "height": 294,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image116",
+          "source": "PPT · slide 25",
+          "src": "/research/gallery/PPT-image116.png",
+          "thumbnail": "/research/gallery/PPT-image116-preview.webp",
+          "width": 977,
+          "height": 781,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image110",
+          "source": "PPT · slide 25",
+          "src": "/research/gallery/PPT-image110.png",
+          "thumbnail": "/research/gallery/PPT-image110-preview.webp",
+          "width": 1804,
+          "height": 681,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image115",
+          "source": "PPT · slide 25",
+          "src": "/research/gallery/PPT-image115.png",
+          "thumbnail": "/research/gallery/PPT-image115-preview.webp",
+          "width": 683,
+          "height": 557,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image114",
+          "source": "PPT · slide 25",
+          "src": "/research/gallery/PPT-image114.png",
+          "thumbnail": "/research/gallery/PPT-image114-preview.webp",
+          "width": 721,
+          "height": 518,
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "honeybee-adhesion-2",
+      "title": "Multiscale adhesion: reference figures",
+      "sourceType": "PPT",
+      "items": [
+        {
+          "id": "PPT-image86",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-image86.png",
+          "thumbnail": "/research/gallery/PPT-image86-preview.webp",
+          "width": 146,
+          "height": 111,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image91",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-image91.png",
+          "thumbnail": "/research/gallery/PPT-image91-preview.webp",
+          "width": 390,
+          "height": 249,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image82",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-image82.png",
+          "thumbnail": "/research/gallery/PPT-image82-preview.webp",
+          "width": 447,
+          "height": 382,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image85",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-image85.png",
+          "thumbnail": "/research/gallery/PPT-image85-preview.webp",
+          "width": 158,
+          "height": 125,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image90",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-image90.png",
+          "thumbnail": "/research/gallery/PPT-image90-preview.webp",
+          "width": 397,
+          "height": 335,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image95",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-image95.png",
+          "thumbnail": "/research/gallery/PPT-image95-preview.webp",
+          "width": 481,
+          "height": 592,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image94",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-image94.png",
+          "thumbnail": "/research/gallery/PPT-image94-preview.webp",
+          "width": 388,
+          "height": 386,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image89",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-image89.png",
+          "thumbnail": "/research/gallery/PPT-image89-preview.webp",
+          "width": 477,
+          "height": 313,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image84",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-image84.png",
+          "thumbnail": "/research/gallery/PPT-image84-preview.webp",
+          "width": 331,
+          "height": 264,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image93",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-image93.png",
+          "thumbnail": "/research/gallery/PPT-image93-preview.webp",
+          "width": 397,
+          "height": 380,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image88",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-image88.png",
+          "thumbnail": "/research/gallery/PPT-image88-preview.webp",
+          "width": 491,
+          "height": 189,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image83",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-image83.png",
+          "thumbnail": "/research/gallery/PPT-image83-preview.webp",
+          "width": 399,
+          "height": 331,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image87",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-image87.png",
+          "thumbnail": "/research/gallery/PPT-image87-preview.webp",
+          "width": 491,
+          "height": 187,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image92",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-image92.png",
+          "thumbnail": "/research/gallery/PPT-image92-preview.webp",
+          "width": 383,
+          "height": 149,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image156",
+          "source": "PPT · slide 38",
+          "src": "/research/gallery/PPT-image156.png",
+          "thumbnail": "/research/gallery/PPT-image156-preview.webp",
+          "width": 632,
+          "height": 454,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image161",
+          "source": "PPT · slide 38",
+          "src": "/research/gallery/PPT-image161.png",
+          "thumbnail": "/research/gallery/PPT-image161-preview.webp",
+          "width": 444,
+          "height": 782,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image155",
+          "source": "PPT · slide 38",
+          "src": "/research/gallery/PPT-image155.png",
+          "thumbnail": "/research/gallery/PPT-image155-preview.webp",
+          "width": 724,
+          "height": 352,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image160",
+          "source": "PPT · slide 38",
+          "src": "/research/gallery/PPT-image160.png",
+          "thumbnail": "/research/gallery/PPT-image160-preview.webp",
+          "width": 342,
+          "height": 312,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image154",
+          "source": "PPT · slide 38",
+          "src": "/research/gallery/PPT-image154.png",
+          "thumbnail": "/research/gallery/PPT-image154-preview.webp",
+          "width": 1942,
+          "height": 226,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image159",
+          "source": "PPT · slide 38",
+          "src": "/research/gallery/PPT-image159.png",
+          "thumbnail": "/research/gallery/PPT-image159-preview.webp",
+          "width": 368,
+          "height": 336,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image163",
+          "source": "PPT · slide 38",
+          "src": "/research/gallery/PPT-image163.png",
+          "thumbnail": "/research/gallery/PPT-image163-preview.webp",
+          "width": 1530,
+          "height": 552,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image158",
+          "source": "PPT · slide 38",
+          "src": "/research/gallery/PPT-image158.png",
+          "thumbnail": "/research/gallery/PPT-image158-preview.webp",
+          "width": 396,
+          "height": 354,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image157",
+          "source": "PPT · slide 38",
+          "src": "/research/gallery/PPT-image157.png",
+          "thumbnail": "/research/gallery/PPT-image157-preview.webp",
+          "width": 610,
+          "height": 372,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image162",
+          "source": "PPT · slide 38",
+          "src": "/research/gallery/PPT-image162.png",
+          "thumbnail": "/research/gallery/PPT-image162-preview.webp",
+          "width": 512,
+          "height": 842,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-hdphoto1",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-hdphoto1.png",
+          "thumbnail": "/research/gallery/PPT-hdphoto1-preview.webp",
+          "width": 331,
+          "height": 264,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-hdphoto2",
+          "source": "PPT · slide 16",
+          "src": "/research/gallery/PPT-hdphoto2.png",
+          "thumbnail": "/research/gallery/PPT-hdphoto2-preview.webp",
+          "width": 481,
+          "height": 592,
+          "kind": "image"
+        }
+      ],
+      "note": "Supporting references in the presentation include Zill et al. (2014), Niederegger & Gorb (2003), Federle & Labonte (2019), Büscher & Gorb (2007), Michels & Gorb (2012), Gorb (2008), Zhang et al. (2007) and Xue et al. (2015). These figures include literature illustrations, not only original project results."
+    },
+    {
+      "id": "honeybee-adhesion-3",
+      "title": "Interface chemistry: research plan and reference figures",
+      "sourceType": "Presentation PDF",
+      "items": [
+        {
+          "id": "PDF-21-Im0",
+          "source": "Presentation PDF · page 21",
+          "src": "/research/gallery/PDF-21-Im0.png",
+          "thumbnail": "/research/gallery/PDF-21-Im0-preview.webp",
+          "width": 695,
+          "height": 298,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-21-Im1",
+          "source": "Presentation PDF · page 21",
+          "src": "/research/gallery/PDF-21-Im1.png",
+          "thumbnail": "/research/gallery/PDF-21-Im1-preview.webp",
+          "width": 710,
+          "height": 473,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-21-Im2",
+          "source": "Presentation PDF · page 21",
+          "src": "/research/gallery/PDF-21-Im2.png",
+          "thumbnail": "/research/gallery/PDF-21-Im2-preview.webp",
+          "width": 819,
+          "height": 645,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-21-Im3",
+          "source": "Presentation PDF · page 21",
+          "src": "/research/gallery/PDF-21-Im3.png",
+          "thumbnail": "/research/gallery/PDF-21-Im3-preview.webp",
+          "width": 1068,
+          "height": 588,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-21-Im4",
+          "source": "Presentation PDF · page 21",
+          "src": "/research/gallery/PDF-21-Im4.png",
+          "thumbnail": "/research/gallery/PDF-21-Im4-preview.webp",
+          "width": 760,
+          "height": 596,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-21-Im5",
+          "source": "Presentation PDF · page 21",
+          "src": "/research/gallery/PDF-21-Im5.png",
+          "thumbnail": "/research/gallery/PDF-21-Im5-preview.webp",
+          "width": 644,
+          "height": 583,
+          "kind": "image"
+        }
+      ]
+    }
+  ],
+  "hybrid-wet-adhesive": [
+    {
+      "id": "hybrid-wet-adhesive-1",
+      "title": "Hybrid adhesive surfaces and interface mechanics",
+      "sourceType": "PPT",
+      "items": [
+        {
+          "id": "PPT-image119",
+          "source": "PPT · slide 27",
+          "src": "/research/gallery/PPT-image119.png",
+          "thumbnail": "/research/gallery/PPT-image119-preview.webp",
+          "width": 893,
+          "height": 809,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image118",
+          "source": "PPT · slide 27",
+          "src": "/research/gallery/PPT-image118.png",
+          "thumbnail": "/research/gallery/PPT-image118-preview.webp",
+          "width": 812,
+          "height": 667,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image24",
+          "source": "PPT · slide 28",
+          "src": "/research/gallery/PPT-image24.png",
+          "thumbnail": "/research/gallery/PPT-image24-preview.webp",
+          "width": 509,
+          "height": 422,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image122",
+          "source": "PPT · slide 28",
+          "src": "/research/gallery/PPT-image122.png",
+          "thumbnail": "/research/gallery/PPT-image122-preview.webp",
+          "width": 551,
+          "height": 432,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image121",
+          "source": "PPT · slide 28",
+          "src": "/research/gallery/PPT-image121.png",
+          "thumbnail": "/research/gallery/PPT-image121-preview.webp",
+          "width": 2068,
+          "height": 480,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image120",
+          "source": "PPT · slide 28",
+          "src": "/research/gallery/PPT-image120.png",
+          "thumbnail": "/research/gallery/PPT-image120-preview.webp",
+          "width": 862,
+          "height": 429,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image124",
+          "source": "PPT · slide 28",
+          "src": "/research/gallery/PPT-image124.png",
+          "thumbnail": "/research/gallery/PPT-image124-preview.webp",
+          "width": 496,
+          "height": 386,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image123",
+          "source": "PPT · slide 28",
+          "src": "/research/gallery/PPT-image123.png",
+          "thumbnail": "/research/gallery/PPT-image123-preview.webp",
+          "width": 510,
+          "height": 392,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image128",
+          "source": "PPT · slide 29",
+          "src": "/research/gallery/PPT-image128.png",
+          "thumbnail": "/research/gallery/PPT-image128-preview.webp",
+          "width": 887,
+          "height": 478,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image127",
+          "source": "PPT · slide 29",
+          "src": "/research/gallery/PPT-image127.png",
+          "thumbnail": "/research/gallery/PPT-image127-preview.webp",
+          "width": 903,
+          "height": 716,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image126",
+          "source": "PPT · slide 29",
+          "src": "/research/gallery/PPT-image126.png",
+          "thumbnail": "/research/gallery/PPT-image126-preview.webp",
+          "width": 2053,
+          "height": 242,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image125",
+          "source": "PPT · slide 29",
+          "src": "/research/gallery/PPT-image125.png",
+          "thumbnail": "/research/gallery/PPT-image125-preview.webp",
+          "width": 1992,
+          "height": 304,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image130",
+          "source": "PPT · slide 29",
+          "src": "/research/gallery/PPT-image130.png",
+          "thumbnail": "/research/gallery/PPT-image130-preview.webp",
+          "width": 1088,
+          "height": 614,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image129",
+          "source": "PPT · slide 29",
+          "src": "/research/gallery/PPT-image129.png",
+          "thumbnail": "/research/gallery/PPT-image129-preview.webp",
+          "width": 659,
+          "height": 561,
+          "kind": "image"
+        }
+      ]
+    }
+  ],
+  "sweat-managing-patch": [
+    {
+      "id": "sweat-managing-patch-1",
+      "title": "Wearable interface requirements and patch architecture",
+      "sourceType": "PPT",
+      "items": [
+        {
+          "id": "PPT-image101",
+          "source": "PPT · slide 23",
+          "src": "/research/gallery/PPT-image101.png",
+          "thumbnail": "/research/gallery/PPT-image101-preview.webp",
+          "width": 400,
+          "height": 316,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image106",
+          "source": "PPT · slide 23",
+          "src": "/research/gallery/PPT-image106.png",
+          "thumbnail": "/research/gallery/PPT-image106-preview.webp",
+          "width": 302,
+          "height": 245,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image97",
+          "source": "PPT · slide 23",
+          "src": "/research/gallery/PPT-image97.png",
+          "thumbnail": "/research/gallery/PPT-image97-preview.webp",
+          "width": 174,
+          "height": 230,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image100",
+          "source": "PPT · slide 23",
+          "src": "/research/gallery/PPT-image100.png",
+          "thumbnail": "/research/gallery/PPT-image100-preview.webp",
+          "width": 350,
+          "height": 244,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image105",
+          "source": "PPT · slide 23",
+          "src": "/research/gallery/PPT-image105.png",
+          "thumbnail": "/research/gallery/PPT-image105-preview.webp",
+          "width": 413,
+          "height": 257,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image109",
+          "source": "PPT · slide 23",
+          "src": "/research/gallery/PPT-image109.png",
+          "thumbnail": "/research/gallery/PPT-image109-preview.webp",
+          "width": 244,
+          "height": 178,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image99",
+          "source": "PPT · slide 23",
+          "src": "/research/gallery/PPT-image99.png",
+          "thumbnail": "/research/gallery/PPT-image99-preview.webp",
+          "width": 280,
+          "height": 233,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image104",
+          "source": "PPT · slide 23",
+          "src": "/research/gallery/PPT-image104.png",
+          "thumbnail": "/research/gallery/PPT-image104-preview.webp",
+          "width": 392,
+          "height": 230,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image98",
+          "source": "PPT · slide 23",
+          "src": "/research/gallery/PPT-image98.png",
+          "thumbnail": "/research/gallery/PPT-image98-preview.webp",
+          "width": 330,
+          "height": 279,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image108",
+          "source": "PPT · slide 23",
+          "src": "/research/gallery/PPT-image108.png",
+          "thumbnail": "/research/gallery/PPT-image108-preview.webp",
+          "width": 242,
+          "height": 172,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image103",
+          "source": "PPT · slide 23",
+          "src": "/research/gallery/PPT-image103.png",
+          "thumbnail": "/research/gallery/PPT-image103-preview.webp",
+          "width": 478,
+          "height": 277,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image102",
+          "source": "PPT · slide 23",
+          "src": "/research/gallery/PPT-image102.png",
+          "thumbnail": "/research/gallery/PPT-image102-preview.webp",
+          "width": 335,
+          "height": 282,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image107",
+          "source": "PPT · slide 23",
+          "src": "/research/gallery/PPT-image107.png",
+          "thumbnail": "/research/gallery/PPT-image107-preview.webp",
+          "width": 444,
+          "height": 251,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image134",
+          "source": "PPT · slide 30",
+          "src": "/research/gallery/PPT-image134.png",
+          "thumbnail": "/research/gallery/PPT-image134-preview.webp",
+          "width": 836,
+          "height": 528,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image133",
+          "source": "PPT · slide 30",
+          "src": "/research/gallery/PPT-image133.png",
+          "thumbnail": "/research/gallery/PPT-image133-preview.webp",
+          "width": 792,
+          "height": 470,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image132",
+          "source": "PPT · slide 30",
+          "src": "/research/gallery/PPT-image132.png",
+          "thumbnail": "/research/gallery/PPT-image132-preview.webp",
+          "width": 1076,
+          "height": 1015,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image131",
+          "source": "PPT · slide 30",
+          "src": "/research/gallery/PPT-image131.png",
+          "thumbnail": "/research/gallery/PPT-image131-preview.webp",
+          "width": 587,
+          "height": 1178,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-hdphoto3",
+          "source": "PPT · slide 23",
+          "src": "/research/gallery/PPT-hdphoto3.png",
+          "thumbnail": "/research/gallery/PPT-hdphoto3-preview.webp",
+          "width": 174,
+          "height": 230,
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "sweat-managing-patch-2",
+      "title": "Capillary transport: models and supporting references",
+      "sourceType": "PPT",
+      "items": [
+        {
+          "id": "PPT-image138",
+          "source": "PPT · slide 31",
+          "src": "/research/gallery/PPT-image138.png",
+          "thumbnail": "/research/gallery/PPT-image138-preview.webp",
+          "width": 876,
+          "height": 351,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image137",
+          "source": "PPT · slide 31",
+          "src": "/research/gallery/PPT-image137.png",
+          "thumbnail": "/research/gallery/PPT-image137-preview.webp",
+          "width": 1092,
+          "height": 584,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image136",
+          "source": "PPT · slide 31",
+          "src": "/research/gallery/PPT-image136.png",
+          "thumbnail": "/research/gallery/PPT-image136-preview.webp",
+          "width": 984,
+          "height": 456,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image135",
+          "source": "PPT · slide 31",
+          "src": "/research/gallery/PPT-image135.png",
+          "thumbnail": "/research/gallery/PPT-image135-preview.webp",
+          "width": 892,
+          "height": 657,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image860",
+          "source": "PPT · slide 32",
+          "src": "/research/gallery/PPT-image860.png",
+          "thumbnail": "/research/gallery/PPT-image860-preview.webp",
+          "width": 1021,
+          "height": 111,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image850",
+          "source": "PPT · slide 32",
+          "src": "/research/gallery/PPT-image850.png",
+          "thumbnail": "/research/gallery/PPT-image850-preview.webp",
+          "width": 463,
+          "height": 111,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image840",
+          "source": "PPT · slide 32",
+          "src": "/research/gallery/PPT-image840.png",
+          "thumbnail": "/research/gallery/PPT-image840-preview.webp",
+          "width": 605,
+          "height": 100,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image139",
+          "source": "PPT · slide 32",
+          "src": "/research/gallery/PPT-image139.png",
+          "thumbnail": "/research/gallery/PPT-image139-preview.webp",
+          "width": 848,
+          "height": 1149,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image140",
+          "source": "PPT · slide 32",
+          "src": "/research/gallery/PPT-image140.png",
+          "thumbnail": "/research/gallery/PPT-image140-preview.webp",
+          "width": 779,
+          "height": 721,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image870",
+          "source": "PPT · slide 32",
+          "src": "/research/gallery/PPT-image870.png",
+          "thumbnail": "/research/gallery/PPT-image870-preview.webp",
+          "width": 1020,
+          "height": 69,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image142",
+          "source": "PPT · slide 33",
+          "src": "/research/gallery/PPT-image142.png",
+          "thumbnail": "/research/gallery/PPT-image142-preview.webp",
+          "width": 1920,
+          "height": 1088,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image141",
+          "source": "PPT · slide 33",
+          "src": "/research/gallery/PPT-image141.png",
+          "thumbnail": "/research/gallery/PPT-image141-preview.webp",
+          "width": 760,
+          "height": 600,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-media3",
+          "source": "PPT · slide 33",
+          "src": "/research/gallery/PPT-media3.mov",
+          "kind": "download",
+          "size": 11.2
+        },
+        {
+          "id": "PPT-image25",
+          "source": "PPT · slide 33",
+          "src": "/research/gallery/PPT-image25.png",
+          "thumbnail": "/research/gallery/PPT-image25-preview.webp",
+          "width": 1408,
+          "height": 682,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image23",
+          "source": "PPT · slide 33",
+          "src": "/research/gallery/PPT-image23.png",
+          "thumbnail": "/research/gallery/PPT-image23-preview.webp",
+          "width": 1236,
+          "height": 551,
+          "kind": "image"
+        }
+      ],
+      "note": "The presentation includes capillary-transport references to Chen et al., Nature (2016), and Prakash et al., Science (2006), alongside the channel models and experiments."
+    },
+    {
+      "id": "sweat-managing-patch-3",
+      "title": "Skin adhesion, permeability and biosignal experiments",
+      "sourceType": "PPT",
+      "items": [
+        {
+          "id": "PPT-image146",
+          "source": "PPT · slide 35",
+          "src": "/research/gallery/PPT-image146.png",
+          "thumbnail": "/research/gallery/PPT-image146-preview.webp",
+          "width": 641,
+          "height": 450,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image145",
+          "source": "PPT · slide 35",
+          "src": "/research/gallery/PPT-image145.png",
+          "thumbnail": "/research/gallery/PPT-image145-preview.webp",
+          "width": 520,
+          "height": 335,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image144",
+          "source": "PPT · slide 35",
+          "src": "/research/gallery/PPT-image144.png",
+          "thumbnail": "/research/gallery/PPT-image144-preview.webp",
+          "width": 638,
+          "height": 339,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image143",
+          "source": "PPT · slide 35",
+          "src": "/research/gallery/PPT-image143.png",
+          "thumbnail": "/research/gallery/PPT-image143-preview.webp",
+          "width": 1418,
+          "height": 1083,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image148",
+          "source": "PPT · slide 35",
+          "src": "/research/gallery/PPT-image148.png",
+          "thumbnail": "/research/gallery/PPT-image148-preview.webp",
+          "width": 925,
+          "height": 545,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image147",
+          "source": "PPT · slide 35",
+          "src": "/research/gallery/PPT-image147.png",
+          "thumbnail": "/research/gallery/PPT-image147-preview.webp",
+          "width": 1354,
+          "height": 513,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image152",
+          "source": "PPT · slide 36",
+          "src": "/research/gallery/PPT-image152.png",
+          "thumbnail": "/research/gallery/PPT-image152-preview.webp",
+          "width": 577,
+          "height": 389,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image151",
+          "source": "PPT · slide 36",
+          "src": "/research/gallery/PPT-image151.png",
+          "thumbnail": "/research/gallery/PPT-image151-preview.webp",
+          "width": 1539,
+          "height": 411,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image150",
+          "source": "PPT · slide 36",
+          "src": "/research/gallery/PPT-image150.png",
+          "thumbnail": "/research/gallery/PPT-image150-preview.webp",
+          "width": 390,
+          "height": 285,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image149",
+          "source": "PPT · slide 36",
+          "src": "/research/gallery/PPT-image149.png",
+          "thumbnail": "/research/gallery/PPT-image149-preview.webp",
+          "width": 1326,
+          "height": 499,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image153",
+          "source": "PPT · slide 36",
+          "src": "/research/gallery/PPT-image153.png",
+          "thumbnail": "/research/gallery/PPT-image153-preview.webp",
+          "width": 965,
+          "height": 389,
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "sweat-managing-patch-4",
+      "title": "Patch development and published figures",
+      "sourceType": "Presentation PDF",
+      "items": [
+        {
+          "id": "PDF-17-Im0",
+          "source": "Presentation PDF · page 17",
+          "src": "/research/gallery/PDF-17-Im0.png",
+          "thumbnail": "/research/gallery/PDF-17-Im0-preview.webp",
+          "width": 1076,
+          "height": 1015,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-17-Im1",
+          "source": "Presentation PDF · page 17",
+          "src": "/research/gallery/PDF-17-Im1.png",
+          "thumbnail": "/research/gallery/PDF-17-Im1-preview.webp",
+          "width": 1111,
+          "height": 420,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-17-Im2",
+          "source": "Presentation PDF · page 17",
+          "src": "/research/gallery/PDF-17-Im2.png",
+          "thumbnail": "/research/gallery/PDF-17-Im2-preview.webp",
+          "width": 1096,
+          "height": 653,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-17-Im3",
+          "source": "Presentation PDF · page 17",
+          "src": "/research/gallery/PDF-17-Im3.png",
+          "thumbnail": "/research/gallery/PDF-17-Im3-preview.webp",
+          "width": 311,
+          "height": 233,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-17-Im4",
+          "source": "Presentation PDF · page 17",
+          "src": "/research/gallery/PDF-17-Im4.png",
+          "thumbnail": "/research/gallery/PDF-17-Im4-preview.webp",
+          "width": 310,
+          "height": 233,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-17-Im5",
+          "source": "Presentation PDF · page 17",
+          "src": "/research/gallery/PDF-17-Im5.png",
+          "thumbnail": "/research/gallery/PDF-17-Im5-preview.webp",
+          "width": 792,
+          "height": 470,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-17-Im6",
+          "source": "Presentation PDF · page 17",
+          "src": "/research/gallery/PDF-17-Im6.png",
+          "thumbnail": "/research/gallery/PDF-17-Im6-preview.webp",
+          "width": 836,
+          "height": 528,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-17-Im7",
+          "source": "Presentation PDF · page 17",
+          "src": "/research/gallery/PDF-17-Im7.png",
+          "thumbnail": "/research/gallery/PDF-17-Im7-preview.webp",
+          "width": 587,
+          "height": 1178,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im0",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im0.png",
+          "thumbnail": "/research/gallery/PDF-18-Im0-preview.webp",
+          "width": 403,
+          "height": 571,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im1",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im1.png",
+          "thumbnail": "/research/gallery/PDF-18-Im1-preview.webp",
+          "width": 403,
+          "height": 574,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im10",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im10.png",
+          "thumbnail": "/research/gallery/PDF-18-Im10-preview.webp",
+          "width": 942,
+          "height": 111,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im11",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im11.png",
+          "thumbnail": "/research/gallery/PDF-18-Im11-preview.webp",
+          "width": 760,
+          "height": 600,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im12",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im12.png",
+          "thumbnail": "/research/gallery/PDF-18-Im12-preview.webp",
+          "width": 694,
+          "height": 393,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im13",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im13.png",
+          "thumbnail": "/research/gallery/PDF-18-Im13-preview.webp",
+          "width": 781,
+          "height": 294,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im14",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im14.png",
+          "thumbnail": "/research/gallery/PDF-18-Im14-preview.webp",
+          "width": 1008,
+          "height": 270,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im15",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im15.png",
+          "thumbnail": "/research/gallery/PDF-18-Im15-preview.webp",
+          "width": 561,
+          "height": 272,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im16",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im16.png",
+          "thumbnail": "/research/gallery/PDF-18-Im16-preview.webp",
+          "width": 638,
+          "height": 339,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im17",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im17.png",
+          "thumbnail": "/research/gallery/PDF-18-Im17-preview.webp",
+          "width": 531,
+          "height": 201,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im18",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im18.png",
+          "thumbnail": "/research/gallery/PDF-18-Im18-preview.webp",
+          "width": 679,
+          "height": 274,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im19",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im19.png",
+          "thumbnail": "/research/gallery/PDF-18-Im19-preview.webp",
+          "width": 379,
+          "height": 389,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im2",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im2.png",
+          "thumbnail": "/research/gallery/PDF-18-Im2-preview.webp",
+          "width": 621,
+          "height": 816,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im3",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im3.png",
+          "thumbnail": "/research/gallery/PDF-18-Im3-preview.webp",
+          "width": 584,
+          "height": 760,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im4",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im4.png",
+          "thumbnail": "/research/gallery/PDF-18-Im4-preview.webp",
+          "width": 2068,
+          "height": 480,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im5",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im5.png",
+          "thumbnail": "/research/gallery/PDF-18-Im5-preview.webp",
+          "width": 862,
+          "height": 429,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im6",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im6.png",
+          "thumbnail": "/research/gallery/PDF-18-Im6-preview.webp",
+          "width": 509,
+          "height": 422,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im7",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im7.png",
+          "thumbnail": "/research/gallery/PDF-18-Im7-preview.webp",
+          "width": 659,
+          "height": 561,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im8",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im8.png",
+          "thumbnail": "/research/gallery/PDF-18-Im8-preview.webp",
+          "width": 604,
+          "height": 614,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im9",
+          "source": "Presentation PDF · page 18",
+          "src": "/research/gallery/PDF-18-Im9.png",
+          "thumbnail": "/research/gallery/PDF-18-Im9-preview.webp",
+          "width": 934,
+          "height": 143,
+          "kind": "image"
+        }
+      ]
+    }
+  ],
+  "formula-student": [
+    {
+      "id": "formula-student-1",
+      "title": "Vehicle design, simulation and tire models",
+      "sourceType": "PPT",
+      "items": [
+        {
+          "id": "PPT-image61",
+          "source": "PPT · slide 9",
+          "src": "/research/gallery/PPT-image61.png",
+          "thumbnail": "/research/gallery/PPT-image61-preview.webp",
+          "width": 620,
+          "height": 894,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image66",
+          "source": "PPT · slide 9",
+          "src": "/research/gallery/PPT-image66.png",
+          "thumbnail": "/research/gallery/PPT-image66-preview.webp",
+          "width": 240,
+          "height": 35,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image56",
+          "source": "PPT · slide 9",
+          "src": "/research/gallery/PPT-image56.gif",
+          "thumbnail": "/research/gallery/PPT-image56-preview.webp",
+          "width": 272,
+          "height": 480,
+          "kind": "gif"
+        },
+        {
+          "id": "PPT-image60",
+          "source": "PPT · slide 9",
+          "src": "/research/gallery/PPT-image60.png",
+          "thumbnail": "/research/gallery/PPT-image60-preview.webp",
+          "width": 626,
+          "height": 894,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image65",
+          "source": "PPT · slide 9",
+          "src": "/research/gallery/PPT-image65.png",
+          "thumbnail": "/research/gallery/PPT-image65-preview.webp",
+          "width": 195,
+          "height": 75,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image59",
+          "source": "PPT · slide 9",
+          "src": "/research/gallery/PPT-image59.png",
+          "thumbnail": "/research/gallery/PPT-image59-preview.webp",
+          "width": 990,
+          "height": 615,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image64",
+          "source": "PPT · slide 9",
+          "src": "/research/gallery/PPT-image64.png",
+          "thumbnail": "/research/gallery/PPT-image64-preview.webp",
+          "width": 230,
+          "height": 55,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image58",
+          "source": "PPT · slide 9",
+          "src": "/research/gallery/PPT-image58.png",
+          "thumbnail": "/research/gallery/PPT-image58-preview.webp",
+          "width": 990,
+          "height": 580,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image63",
+          "source": "PPT · slide 9",
+          "src": "/research/gallery/PPT-image63.png",
+          "thumbnail": "/research/gallery/PPT-image63-preview.webp",
+          "width": 213,
+          "height": 55,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image57",
+          "source": "PPT · slide 9",
+          "src": "/research/gallery/PPT-image57.png",
+          "thumbnail": "/research/gallery/PPT-image57-preview.webp",
+          "width": 970,
+          "height": 510,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image62",
+          "source": "PPT · slide 9",
+          "src": "/research/gallery/PPT-image62.png",
+          "thumbnail": "/research/gallery/PPT-image62-preview.webp",
+          "width": 311,
+          "height": 143,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image67",
+          "source": "PPT · slide 10",
+          "src": "/research/gallery/PPT-image67.png",
+          "thumbnail": "/research/gallery/PPT-image67-preview.webp",
+          "width": 935,
+          "height": 416,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image71",
+          "source": "PPT · slide 10",
+          "src": "/research/gallery/PPT-image71.png",
+          "thumbnail": "/research/gallery/PPT-image71-preview.webp",
+          "width": 965,
+          "height": 749,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image70",
+          "source": "PPT · slide 10",
+          "src": "/research/gallery/PPT-image70.png",
+          "thumbnail": "/research/gallery/PPT-image70-preview.webp",
+          "width": 941,
+          "height": 466,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image69",
+          "source": "PPT · slide 10",
+          "src": "/research/gallery/PPT-image69.png",
+          "thumbnail": "/research/gallery/PPT-image69-preview.webp",
+          "width": 1299,
+          "height": 523,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image68",
+          "source": "PPT · slide 10",
+          "src": "/research/gallery/PPT-image68.png",
+          "thumbnail": "/research/gallery/PPT-image68-preview.webp",
+          "width": 789,
+          "height": 394,
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "formula-student-2",
+      "title": "Team planning and competition records",
+      "sourceType": "PPT",
+      "items": [
+        {
+          "id": "PPT-image76",
+          "source": "PPT · slide 11",
+          "src": "/research/gallery/PPT-image76.png",
+          "thumbnail": "/research/gallery/PPT-image76-preview.webp",
+          "width": 1665,
+          "height": 815,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image75",
+          "source": "PPT · slide 11",
+          "src": "/research/gallery/PPT-image75.png",
+          "thumbnail": "/research/gallery/PPT-image75-preview.webp",
+          "width": 1631,
+          "height": 875,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image74",
+          "source": "PPT · slide 11",
+          "src": "/research/gallery/PPT-image74.png",
+          "thumbnail": "/research/gallery/PPT-image74-preview.webp",
+          "width": 1030,
+          "height": 265,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image73",
+          "source": "PPT · slide 11",
+          "src": "/research/gallery/PPT-image73.png",
+          "thumbnail": "/research/gallery/PPT-image73-preview.webp",
+          "width": 1045,
+          "height": 276,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image78",
+          "source": "PPT · slide 11",
+          "src": "/research/gallery/PPT-image78.png",
+          "thumbnail": "/research/gallery/PPT-image78-preview.webp",
+          "width": 1059,
+          "height": 580,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image72",
+          "source": "PPT · slide 11",
+          "src": "/research/gallery/PPT-image72.png",
+          "thumbnail": "/research/gallery/PPT-image72-preview.webp",
+          "width": 1326,
+          "height": 715,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image77",
+          "source": "PPT · slide 11",
+          "src": "/research/gallery/PPT-image77.png",
+          "thumbnail": "/research/gallery/PPT-image77-preview.webp",
+          "width": 574,
+          "height": 864,
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "formula-student-3",
+      "title": "Vehicle development and testing",
+      "sourceType": "Presentation PDF",
+      "items": [
+        {
+          "id": "PDF-10-Im0",
+          "source": "Presentation PDF · page 10",
+          "src": "/research/gallery/PDF-10-Im0.png",
+          "thumbnail": "/research/gallery/PDF-10-Im0-preview.webp",
+          "width": 400,
+          "height": 225,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-10-Im1",
+          "source": "Presentation PDF · page 10",
+          "src": "/research/gallery/PDF-10-Im1.png",
+          "thumbnail": "/research/gallery/PDF-10-Im1-preview.webp",
+          "width": 554,
+          "height": 333,
+          "kind": "image"
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "id": "posts-1",
+      "title": "Laboratory and prototyping",
+      "sourceType": "PPT",
+      "items": [
+        {
+          "id": "PPT-image15",
+          "source": "PPT · slide 5",
+          "src": "/research/gallery/PPT-image15.png",
+          "thumbnail": "/research/gallery/PPT-image15-preview.webp",
+          "width": 655,
+          "height": 149,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-media1",
+          "source": "PPT · slide 5",
+          "src": "/research/gallery/PPT-media1.mp4",
+          "kind": "video",
+          "size": 0.4
+        },
+        {
+          "id": "PPT-image14",
+          "source": "PPT · slide 5",
+          "src": "/research/gallery/PPT-image14.png",
+          "thumbnail": "/research/gallery/PPT-image14-preview.webp",
+          "width": 1024,
+          "height": 184,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image13",
+          "source": "PPT · slide 5",
+          "src": "/research/gallery/PPT-image13.png",
+          "thumbnail": "/research/gallery/PPT-image13-preview.webp",
+          "width": 702,
+          "height": 166,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image17",
+          "source": "PPT · slide 5",
+          "src": "/research/gallery/PPT-image17.png",
+          "thumbnail": "/research/gallery/PPT-image17-preview.webp",
+          "width": 796,
+          "height": 275,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image16",
+          "source": "PPT · slide 5",
+          "src": "/research/gallery/PPT-image16.png",
+          "thumbnail": "/research/gallery/PPT-image16-preview.webp",
+          "width": 568,
+          "height": 320,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image23",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image23.png",
+          "thumbnail": "/research/gallery/PPT-image23-preview.webp",
+          "width": 1236,
+          "height": 551,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image28",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image28.png",
+          "thumbnail": "/research/gallery/PPT-image28-preview.webp",
+          "width": 973,
+          "height": 603,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image33",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image33.png",
+          "thumbnail": "/research/gallery/PPT-image33-preview.webp",
+          "width": 1535,
+          "height": 439,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image41",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image41.png",
+          "thumbnail": "/research/gallery/PPT-image41-preview.webp",
+          "width": 521,
+          "height": 360,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image18",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image18.png",
+          "thumbnail": "/research/gallery/PPT-image18-preview.webp",
+          "width": 925,
+          "height": 696,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image36",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image36.png",
+          "thumbnail": "/research/gallery/PPT-image36-preview.webp",
+          "width": 710,
+          "height": 231,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image22",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image22.png",
+          "thumbnail": "/research/gallery/PPT-image22-preview.webp",
+          "width": 490,
+          "height": 581,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image27",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image27.png",
+          "thumbnail": "/research/gallery/PPT-image27-preview.webp",
+          "width": 919,
+          "height": 600,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image32",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image32.gif",
+          "thumbnail": "/research/gallery/PPT-image32-preview.webp",
+          "width": 1569,
+          "height": 884,
+          "kind": "gif"
+        },
+        {
+          "id": "PPT-image40",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image40.png",
+          "thumbnail": "/research/gallery/PPT-image40-preview.webp",
+          "width": 341,
+          "height": 278,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image31",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image31.gif",
+          "thumbnail": "/research/gallery/PPT-image31-preview.webp",
+          "width": 1459,
+          "height": 848,
+          "kind": "gif"
+        },
+        {
+          "id": "PPT-image35",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image35.png",
+          "thumbnail": "/research/gallery/PPT-image35-preview.webp",
+          "width": 691,
+          "height": 608,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image21",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image21.png",
+          "thumbnail": "/research/gallery/PPT-image21-preview.webp",
+          "width": 565,
+          "height": 768,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image26",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image26.png",
+          "thumbnail": "/research/gallery/PPT-image26-preview.webp",
+          "width": 286,
+          "height": 595,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image39",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image39.png",
+          "thumbnail": "/research/gallery/PPT-image39-preview.webp",
+          "width": 765,
+          "height": 615,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image20",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image20.png",
+          "thumbnail": "/research/gallery/PPT-image20-preview.webp",
+          "width": 705,
+          "height": 588,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image30",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image30.png",
+          "thumbnail": "/research/gallery/PPT-image30-preview.webp",
+          "width": 320,
+          "height": 475,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image38",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image38.png",
+          "thumbnail": "/research/gallery/PPT-image38-preview.webp",
+          "width": 514,
+          "height": 424,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image43",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image43.png",
+          "thumbnail": "/research/gallery/PPT-image43-preview.webp",
+          "width": 580,
+          "height": 498,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image25",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image25.png",
+          "thumbnail": "/research/gallery/PPT-image25-preview.webp",
+          "width": 1408,
+          "height": 682,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image34",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image34.png",
+          "thumbnail": "/research/gallery/PPT-image34-preview.webp",
+          "width": 770,
+          "height": 585,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image19",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image19.png",
+          "thumbnail": "/research/gallery/PPT-image19-preview.webp",
+          "width": 489,
+          "height": 241,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image24",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image24.png",
+          "thumbnail": "/research/gallery/PPT-image24-preview.webp",
+          "width": 509,
+          "height": 422,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image29",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image29.png",
+          "thumbnail": "/research/gallery/PPT-image29-preview.webp",
+          "width": 800,
+          "height": 585,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image37",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image37.png",
+          "thumbnail": "/research/gallery/PPT-image37-preview.webp",
+          "width": 715,
+          "height": 745,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image42",
+          "source": "PPT · slide 6",
+          "src": "/research/gallery/PPT-image42.png",
+          "thumbnail": "/research/gallery/PPT-image42-preview.webp",
+          "width": 330,
+          "height": 270,
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "posts-2",
+      "title": "Academic and competition records",
+      "sourceType": "PPT",
+      "items": [
+        {
+          "id": "PPT-image49",
+          "source": "PPT · slide 7",
+          "src": "/research/gallery/PPT-image49.png",
+          "thumbnail": "/research/gallery/PPT-image49-preview.webp",
+          "width": 1181,
+          "height": 1670,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image54",
+          "source": "PPT · slide 7",
+          "src": "/research/gallery/PPT-image54.png",
+          "thumbnail": "/research/gallery/PPT-image54-preview.webp",
+          "width": 798,
+          "height": 570,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image44",
+          "source": "PPT · slide 7",
+          "src": "/research/gallery/PPT-image44.png",
+          "thumbnail": "/research/gallery/PPT-image44-preview.webp",
+          "width": 545,
+          "height": 749,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image48",
+          "source": "PPT · slide 7",
+          "src": "/research/gallery/PPT-image48.png",
+          "thumbnail": "/research/gallery/PPT-image48-preview.webp",
+          "width": 584,
+          "height": 760,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image53",
+          "source": "PPT · slide 7",
+          "src": "/research/gallery/PPT-image53.png",
+          "thumbnail": "/research/gallery/PPT-image53-preview.webp",
+          "width": 544,
+          "height": 889,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image47",
+          "source": "PPT · slide 7",
+          "src": "/research/gallery/PPT-image47.png",
+          "thumbnail": "/research/gallery/PPT-image47-preview.webp",
+          "width": 621,
+          "height": 816,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image52",
+          "source": "PPT · slide 7",
+          "src": "/research/gallery/PPT-image52.png",
+          "thumbnail": "/research/gallery/PPT-image52-preview.webp",
+          "width": 626,
+          "height": 893,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image46",
+          "source": "PPT · slide 7",
+          "src": "/research/gallery/PPT-image46.png",
+          "thumbnail": "/research/gallery/PPT-image46-preview.webp",
+          "width": 471,
+          "height": 660,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image51",
+          "source": "PPT · slide 7",
+          "src": "/research/gallery/PPT-image51.png",
+          "thumbnail": "/research/gallery/PPT-image51-preview.webp",
+          "width": 629,
+          "height": 891,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image45",
+          "source": "PPT · slide 7",
+          "src": "/research/gallery/PPT-image45.png",
+          "thumbnail": "/research/gallery/PPT-image45-preview.webp",
+          "width": 434,
+          "height": 604,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image50",
+          "source": "PPT · slide 7",
+          "src": "/research/gallery/PPT-image50.png",
+          "thumbnail": "/research/gallery/PPT-image50-preview.webp",
+          "width": 571,
+          "height": 891,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image55",
+          "source": "PPT · slide 7",
+          "src": "/research/gallery/PPT-image55.png",
+          "thumbnail": "/research/gallery/PPT-image55-preview.webp",
+          "width": 900,
+          "height": 635,
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "posts-3",
+      "title": "Activities and community",
+      "sourceType": "PPT",
+      "items": [
+        {
+          "id": "PPT-image96",
+          "source": "PPT · slide 21",
+          "src": "/research/gallery/PPT-image96.png",
+          "thumbnail": "/research/gallery/PPT-image96-preview.webp",
+          "width": 671,
+          "height": 366,
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "posts-4",
+      "title": "Bioinspiration notebook: reference images",
+      "sourceType": "PPT",
+      "items": [
+        {
+          "id": "PPT-image167",
+          "source": "PPT · slide 39",
+          "src": "/research/gallery/PPT-image167.png",
+          "thumbnail": "/research/gallery/PPT-image167-preview.webp",
+          "width": 288,
+          "height": 280,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image172",
+          "source": "PPT · slide 39",
+          "src": "/research/gallery/PPT-image172.png",
+          "thumbnail": "/research/gallery/PPT-image172-preview.webp",
+          "width": 320,
+          "height": 318,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image177",
+          "source": "PPT · slide 39",
+          "src": "/research/gallery/PPT-image177.png",
+          "thumbnail": "/research/gallery/PPT-image177-preview.webp",
+          "width": 580,
+          "height": 414,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image166",
+          "source": "PPT · slide 39",
+          "src": "/research/gallery/PPT-image166.png",
+          "thumbnail": "/research/gallery/PPT-image166-preview.webp",
+          "width": 398,
+          "height": 496,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image171",
+          "source": "PPT · slide 39",
+          "src": "/research/gallery/PPT-image171.png",
+          "thumbnail": "/research/gallery/PPT-image171-preview.webp",
+          "width": 318,
+          "height": 214,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image176",
+          "source": "PPT · slide 39",
+          "src": "/research/gallery/PPT-image176.png",
+          "thumbnail": "/research/gallery/PPT-image176-preview.webp",
+          "width": 904,
+          "height": 452,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image175",
+          "source": "PPT · slide 39",
+          "src": "/research/gallery/PPT-image175.png",
+          "thumbnail": "/research/gallery/PPT-image175-preview.webp",
+          "width": 1012,
+          "height": 562,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image165",
+          "source": "PPT · slide 39",
+          "src": "/research/gallery/PPT-image165.png",
+          "thumbnail": "/research/gallery/PPT-image165-preview.webp",
+          "width": 394,
+          "height": 496,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image170",
+          "source": "PPT · slide 39",
+          "src": "/research/gallery/PPT-image170.png",
+          "thumbnail": "/research/gallery/PPT-image170-preview.webp",
+          "width": 150,
+          "height": 206,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image164",
+          "source": "PPT · slide 39",
+          "src": "/research/gallery/PPT-image164.png",
+          "thumbnail": "/research/gallery/PPT-image164-preview.webp",
+          "width": 398,
+          "height": 502,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image174",
+          "source": "PPT · slide 39",
+          "src": "/research/gallery/PPT-image174.png",
+          "thumbnail": "/research/gallery/PPT-image174-preview.webp",
+          "width": 920,
+          "height": 586,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image169",
+          "source": "PPT · slide 39",
+          "src": "/research/gallery/PPT-image169.png",
+          "thumbnail": "/research/gallery/PPT-image169-preview.webp",
+          "width": 490,
+          "height": 550,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image178",
+          "source": "PPT · slide 39",
+          "src": "/research/gallery/PPT-image178.png",
+          "thumbnail": "/research/gallery/PPT-image178-preview.webp",
+          "width": 640,
+          "height": 460,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image168",
+          "source": "PPT · slide 39",
+          "src": "/research/gallery/PPT-image168.png",
+          "thumbnail": "/research/gallery/PPT-image168-preview.webp",
+          "width": 738,
+          "height": 538,
+          "kind": "image"
+        },
+        {
+          "id": "PPT-image173",
+          "source": "PPT · slide 39",
+          "src": "/research/gallery/PPT-image173.png",
+          "thumbnail": "/research/gallery/PPT-image173-preview.webp",
+          "width": 1716,
+          "height": 554,
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "posts-5",
+      "title": "Engineering practice and laboratory work",
+      "sourceType": "Presentation PDF",
+      "items": [
+        {
+          "id": "PDF-06-Im0",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im0.png",
+          "thumbnail": "/research/gallery/PDF-06-Im0-preview.webp",
+          "width": 669,
+          "height": 346,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im1",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im1.png",
+          "thumbnail": "/research/gallery/PDF-06-Im1-preview.webp",
+          "width": 226,
+          "height": 187,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im10",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im10.png",
+          "thumbnail": "/research/gallery/PDF-06-Im10-preview.webp",
+          "width": 705,
+          "height": 588,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im11",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im11.png",
+          "thumbnail": "/research/gallery/PDF-06-Im11-preview.webp",
+          "width": 384,
+          "height": 292,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im12",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im12.png",
+          "thumbnail": "/research/gallery/PDF-06-Im12-preview.webp",
+          "width": 715,
+          "height": 745,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im13",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im13.png",
+          "thumbnail": "/research/gallery/PDF-06-Im13-preview.webp",
+          "width": 315,
+          "height": 260,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im14",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im14.png",
+          "thumbnail": "/research/gallery/PDF-06-Im14-preview.webp",
+          "width": 313,
+          "height": 252,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im15",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im15.png",
+          "thumbnail": "/research/gallery/PDF-06-Im15-preview.webp",
+          "width": 565,
+          "height": 768,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im16",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im16.png",
+          "thumbnail": "/research/gallery/PDF-06-Im16-preview.webp",
+          "width": 262,
+          "height": 310,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im17",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im17.png",
+          "thumbnail": "/research/gallery/PDF-06-Im17-preview.webp",
+          "width": 341,
+          "height": 278,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im18",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im18.png",
+          "thumbnail": "/research/gallery/PDF-06-Im18-preview.webp",
+          "width": 341,
+          "height": 236,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im19",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im19.png",
+          "thumbnail": "/research/gallery/PDF-06-Im19-preview.webp",
+          "width": 337,
+          "height": 297,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im2",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im2.png",
+          "thumbnail": "/research/gallery/PDF-06-Im2-preview.webp",
+          "width": 421,
+          "height": 201,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im20",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im20.png",
+          "thumbnail": "/research/gallery/PDF-06-Im20-preview.webp",
+          "width": 690,
+          "height": 231,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im21",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im21.png",
+          "thumbnail": "/research/gallery/PDF-06-Im21-preview.webp",
+          "width": 330,
+          "height": 270,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im22",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im22.png",
+          "thumbnail": "/research/gallery/PDF-06-Im22-preview.webp",
+          "width": 438,
+          "height": 329,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im23",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im23.png",
+          "thumbnail": "/research/gallery/PDF-06-Im23-preview.webp",
+          "width": 489,
+          "height": 241,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im24",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im24.png",
+          "thumbnail": "/research/gallery/PDF-06-Im24-preview.webp",
+          "width": 433,
+          "height": 317,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im25",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im25.png",
+          "thumbnail": "/research/gallery/PDF-06-Im25-preview.webp",
+          "width": 249,
+          "height": 214,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im3",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im3.png",
+          "thumbnail": "/research/gallery/PDF-06-Im3-preview.webp",
+          "width": 286,
+          "height": 595,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im4",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im4.png",
+          "thumbnail": "/research/gallery/PDF-06-Im4-preview.webp",
+          "width": 381,
+          "height": 249,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im5",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im5.png",
+          "thumbnail": "/research/gallery/PDF-06-Im5-preview.webp",
+          "width": 407,
+          "height": 211,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im6",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im6.png",
+          "thumbnail": "/research/gallery/PDF-06-Im6-preview.webp",
+          "width": 226,
+          "height": 475,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im7",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im7.png",
+          "thumbnail": "/research/gallery/PDF-06-Im7-preview.webp",
+          "width": 320,
+          "height": 186,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im8",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im8.png",
+          "thumbnail": "/research/gallery/PDF-06-Im8-preview.webp",
+          "width": 320,
+          "height": 181,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-06-Im9",
+          "source": "Presentation PDF · page 6",
+          "src": "/research/gallery/PDF-06-Im9.png",
+          "thumbnail": "/research/gallery/PDF-06-Im9-preview.webp",
+          "width": 327,
+          "height": 94,
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "posts-6",
+      "title": "Academic presentations and awards",
+      "sourceType": "Presentation PDF",
+      "items": [
+        {
+          "id": "PDF-08-Im0",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im0.png",
+          "thumbnail": "/research/gallery/PDF-08-Im0-preview.webp",
+          "width": 545,
+          "height": 749,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-08-Im1",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im1.png",
+          "thumbnail": "/research/gallery/PDF-08-Im1-preview.webp",
+          "width": 434,
+          "height": 604,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-08-Im10",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im10.png",
+          "thumbnail": "/research/gallery/PDF-08-Im10-preview.webp",
+          "width": 446,
+          "height": 315,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-08-Im11",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im11.png",
+          "thumbnail": "/research/gallery/PDF-08-Im11-preview.webp",
+          "width": 482,
+          "height": 681,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-08-Im12",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im12.png",
+          "thumbnail": "/research/gallery/PDF-08-Im12-preview.webp",
+          "width": 290,
+          "height": 413,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-08-Im13",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im13.png",
+          "thumbnail": "/research/gallery/PDF-08-Im13-preview.webp",
+          "width": 299,
+          "height": 423,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-08-Im14",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im14.png",
+          "thumbnail": "/research/gallery/PDF-08-Im14-preview.webp",
+          "width": 297,
+          "height": 425,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-08-Im15",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im15.png",
+          "thumbnail": "/research/gallery/PDF-08-Im15-preview.webp",
+          "width": 431,
+          "height": 613,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-08-Im16",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im16.png",
+          "thumbnail": "/research/gallery/PDF-08-Im16-preview.webp",
+          "width": 773,
+          "height": 607,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im2",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-18-Im2.png",
+          "thumbnail": "/research/gallery/PDF-18-Im2-preview.webp",
+          "width": 621,
+          "height": 816,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-08-Im2",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im2.png",
+          "thumbnail": "/research/gallery/PDF-08-Im2-preview.webp",
+          "width": 471,
+          "height": 660,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-18-Im3",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-18-Im3.png",
+          "thumbnail": "/research/gallery/PDF-18-Im3-preview.webp",
+          "width": 584,
+          "height": 760,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-08-Im4",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im4.png",
+          "thumbnail": "/research/gallery/PDF-08-Im4-preview.webp",
+          "width": 482,
+          "height": 681,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-08-Im5",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im5.png",
+          "thumbnail": "/research/gallery/PDF-08-Im5-preview.webp",
+          "width": 378,
+          "height": 590,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-08-Im6",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im6.png",
+          "thumbnail": "/research/gallery/PDF-08-Im6-preview.webp",
+          "width": 417,
+          "height": 590,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-08-Im7",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im7.png",
+          "thumbnail": "/research/gallery/PDF-08-Im7-preview.webp",
+          "width": 626,
+          "height": 893,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-08-Im8",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im8.png",
+          "thumbnail": "/research/gallery/PDF-08-Im8-preview.webp",
+          "width": 361,
+          "height": 591,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-08-Im9",
+          "source": "Presentation PDF · page 8",
+          "src": "/research/gallery/PDF-08-Im9.png",
+          "thumbnail": "/research/gallery/PDF-08-Im9-preview.webp",
+          "width": 439,
+          "height": 314,
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "posts-7",
+      "title": "Team training, outreach and volunteer activities",
+      "sourceType": "Presentation PDF",
+      "items": [
+        {
+          "id": "PDF-26-Im0",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im0.png",
+          "thumbnail": "/research/gallery/PDF-26-Im0-preview.webp",
+          "width": 671,
+          "height": 366,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im1",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im1.png",
+          "thumbnail": "/research/gallery/PDF-26-Im1-preview.webp",
+          "width": 651,
+          "height": 925,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im10",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im10.png",
+          "thumbnail": "/research/gallery/PDF-26-Im10-preview.webp",
+          "width": 568,
+          "height": 455,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im11",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im11.png",
+          "thumbnail": "/research/gallery/PDF-26-Im11-preview.webp",
+          "width": 168,
+          "height": 230,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im12",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im12.png",
+          "thumbnail": "/research/gallery/PDF-26-Im12-preview.webp",
+          "width": 539,
+          "height": 299,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im13",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im13.png",
+          "thumbnail": "/research/gallery/PDF-26-Im13-preview.webp",
+          "width": 499,
+          "height": 255,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im14",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im14.png",
+          "thumbnail": "/research/gallery/PDF-26-Im14-preview.webp",
+          "width": 513,
+          "height": 240,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im15",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im15.png",
+          "thumbnail": "/research/gallery/PDF-26-Im15-preview.webp",
+          "width": 459,
+          "height": 123,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im16",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im16.png",
+          "thumbnail": "/research/gallery/PDF-26-Im16-preview.webp",
+          "width": 465,
+          "height": 335,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im2",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im2.png",
+          "thumbnail": "/research/gallery/PDF-26-Im2-preview.webp",
+          "width": 338,
+          "height": 778,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im3",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im3.png",
+          "thumbnail": "/research/gallery/PDF-26-Im3-preview.webp",
+          "width": 195,
+          "height": 671,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im4",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im4.png",
+          "thumbnail": "/research/gallery/PDF-26-Im4-preview.webp",
+          "width": 543,
+          "height": 306,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im5",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im5.png",
+          "thumbnail": "/research/gallery/PDF-26-Im5-preview.webp",
+          "width": 518,
+          "height": 491,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im6",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im6.png",
+          "thumbnail": "/research/gallery/PDF-26-Im6-preview.webp",
+          "width": 443,
+          "height": 313,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im7",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im7.png",
+          "thumbnail": "/research/gallery/PDF-26-Im7-preview.webp",
+          "width": 514,
+          "height": 296,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im8",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im8.png",
+          "thumbnail": "/research/gallery/PDF-26-Im8-preview.webp",
+          "width": 1210,
+          "height": 450,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-26-Im9",
+          "source": "Presentation PDF · page 26",
+          "src": "/research/gallery/PDF-26-Im9.png",
+          "thumbnail": "/research/gallery/PDF-26-Im9-preview.webp",
+          "width": 436,
+          "height": 599,
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "posts-8",
+      "title": "Biomimetics notebook: reference images",
+      "sourceType": "Presentation PDF",
+      "items": [
+        {
+          "id": "PDF-24-Im0",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im0.png",
+          "thumbnail": "/research/gallery/PDF-24-Im0-preview.webp",
+          "width": 642,
+          "height": 207,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im1",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im1.png",
+          "thumbnail": "/research/gallery/PDF-24-Im1-preview.webp",
+          "width": 321,
+          "height": 204,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im10",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im10.png",
+          "thumbnail": "/research/gallery/PDF-24-Im10-preview.webp",
+          "width": 409,
+          "height": 298,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im11",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im11.png",
+          "thumbnail": "/research/gallery/PDF-24-Im11-preview.webp",
+          "width": 266,
+          "height": 298,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im12",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im12.png",
+          "thumbnail": "/research/gallery/PDF-24-Im12-preview.webp",
+          "width": 150,
+          "height": 206,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im13",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im13.png",
+          "thumbnail": "/research/gallery/PDF-24-Im13-preview.webp",
+          "width": 318,
+          "height": 214,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im14",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im14.png",
+          "thumbnail": "/research/gallery/PDF-24-Im14-preview.webp",
+          "width": 320,
+          "height": 318,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im15",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im15.png",
+          "thumbnail": "/research/gallery/PDF-24-Im15-preview.webp",
+          "width": 398,
+          "height": 502,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im16",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im16.png",
+          "thumbnail": "/research/gallery/PDF-24-Im16-preview.webp",
+          "width": 394,
+          "height": 496,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im17",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im17.png",
+          "thumbnail": "/research/gallery/PDF-24-Im17-preview.webp",
+          "width": 398,
+          "height": 496,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im18",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im18.png",
+          "thumbnail": "/research/gallery/PDF-24-Im18-preview.webp",
+          "width": 426,
+          "height": 292,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im19",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im19.png",
+          "thumbnail": "/research/gallery/PDF-24-Im19-preview.webp",
+          "width": 474,
+          "height": 333,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im2",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im2.png",
+          "thumbnail": "/research/gallery/PDF-24-Im2-preview.webp",
+          "width": 436,
+          "height": 242,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im3",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im3.png",
+          "thumbnail": "/research/gallery/PDF-24-Im3-preview.webp",
+          "width": 451,
+          "height": 226,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im4",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im4.png",
+          "thumbnail": "/research/gallery/PDF-24-Im4-preview.webp",
+          "width": 325,
+          "height": 232,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im5",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im5.png",
+          "thumbnail": "/research/gallery/PDF-24-Im5-preview.webp",
+          "width": 306,
+          "height": 220,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im6",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im6.png",
+          "thumbnail": "/research/gallery/PDF-24-Im6-preview.webp",
+          "width": 409,
+          "height": 273,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im7",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im7.png",
+          "thumbnail": "/research/gallery/PDF-24-Im7-preview.webp",
+          "width": 305,
+          "height": 192,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im8",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im8.png",
+          "thumbnail": "/research/gallery/PDF-24-Im8-preview.webp",
+          "width": 377,
+          "height": 269,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-24-Im9",
+          "source": "Presentation PDF · page 24",
+          "src": "/research/gallery/PDF-24-Im9.png",
+          "thumbnail": "/research/gallery/PDF-24-Im9-preview.webp",
+          "width": 288,
+          "height": 280,
+          "kind": "image"
+        }
+      ]
+    }
+  ],
+  "origami-wall-climbing-robot": [
+    {
+      "id": "origami-wall-climbing-robot-1",
+      "title": "Mechanisms, fabrication and prototype records",
+      "sourceType": "Presentation PDF",
+      "items": [
+        {
+          "id": "PDF-15-Im0",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im0.png",
+          "thumbnail": "/research/gallery/PDF-15-Im0-preview.webp",
+          "width": 805,
+          "height": 623,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im1",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im1.png",
+          "thumbnail": "/research/gallery/PDF-15-Im1-preview.webp",
+          "width": 639,
+          "height": 452,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im10",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im10.png",
+          "thumbnail": "/research/gallery/PDF-15-Im10-preview.webp",
+          "width": 254,
+          "height": 105,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im11",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im11.png",
+          "thumbnail": "/research/gallery/PDF-15-Im11-preview.webp",
+          "width": 133,
+          "height": 47,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im12",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im12.png",
+          "thumbnail": "/research/gallery/PDF-15-Im12-preview.webp",
+          "width": 168,
+          "height": 53,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im13",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im13.png",
+          "thumbnail": "/research/gallery/PDF-15-Im13-preview.webp",
+          "width": 298,
+          "height": 284,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im14",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im14.png",
+          "thumbnail": "/research/gallery/PDF-15-Im14-preview.webp",
+          "width": 386,
+          "height": 289,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im15",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im15.png",
+          "thumbnail": "/research/gallery/PDF-15-Im15-preview.webp",
+          "width": 288,
+          "height": 254,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im16",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im16.png",
+          "thumbnail": "/research/gallery/PDF-15-Im16-preview.webp",
+          "width": 580,
+          "height": 253,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im17",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im17.png",
+          "thumbnail": "/research/gallery/PDF-15-Im17-preview.webp",
+          "width": 252,
+          "height": 510,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im18",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im18.png",
+          "thumbnail": "/research/gallery/PDF-15-Im18-preview.webp",
+          "width": 319,
+          "height": 396,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im19",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im19.png",
+          "thumbnail": "/research/gallery/PDF-15-Im19-preview.webp",
+          "width": 286,
+          "height": 576,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im2",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im2.png",
+          "thumbnail": "/research/gallery/PDF-15-Im2-preview.webp",
+          "width": 283,
+          "height": 559,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im20",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im20.png",
+          "thumbnail": "/research/gallery/PDF-15-Im20-preview.webp",
+          "width": 364,
+          "height": 304,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im21",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im21.png",
+          "thumbnail": "/research/gallery/PDF-15-Im21-preview.webp",
+          "width": 194,
+          "height": 282,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im22",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im22.png",
+          "thumbnail": "/research/gallery/PDF-15-Im22-preview.webp",
+          "width": 195,
+          "height": 281,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im23",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im23.png",
+          "thumbnail": "/research/gallery/PDF-15-Im23-preview.webp",
+          "width": 197,
+          "height": 438,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im24",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im24.png",
+          "thumbnail": "/research/gallery/PDF-15-Im24-preview.webp",
+          "width": 195,
+          "height": 345,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im3",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im3.png",
+          "thumbnail": "/research/gallery/PDF-15-Im3-preview.webp",
+          "width": 470,
+          "height": 345,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im4",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im4.png",
+          "thumbnail": "/research/gallery/PDF-15-Im4-preview.webp",
+          "width": 277,
+          "height": 588,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im5",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im5.png",
+          "thumbnail": "/research/gallery/PDF-15-Im5-preview.webp",
+          "width": 501,
+          "height": 302,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im6",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im6.png",
+          "thumbnail": "/research/gallery/PDF-15-Im6-preview.webp",
+          "width": 123,
+          "height": 27,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im7",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im7.png",
+          "thumbnail": "/research/gallery/PDF-15-Im7-preview.webp",
+          "width": 119,
+          "height": 51,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im8",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im8.png",
+          "thumbnail": "/research/gallery/PDF-15-Im8-preview.webp",
+          "width": 289,
+          "height": 61,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-15-Im9",
+          "source": "Presentation PDF · page 15",
+          "src": "/research/gallery/PDF-15-Im9.png",
+          "thumbnail": "/research/gallery/PDF-15-Im9-preview.webp",
+          "width": 500,
+          "height": 107,
+          "kind": "image"
+        }
+      ]
+    }
+  ],
+  "worm-like-soft-robot": [
+    {
+      "id": "worm-like-soft-robot-1",
+      "title": "Electrohydraulic crawling robot",
+      "sourceType": "Presentation PDF",
+      "items": [
+        {
+          "id": "PDF-16-Im0",
+          "source": "Presentation PDF · page 16",
+          "src": "/research/gallery/PDF-16-Im0.png",
+          "thumbnail": "/research/gallery/PDF-16-Im0-preview.webp",
+          "width": 945,
+          "height": 624,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-16-Im1",
+          "source": "Presentation PDF · page 16",
+          "src": "/research/gallery/PDF-16-Im1.png",
+          "thumbnail": "/research/gallery/PDF-16-Im1-preview.webp",
+          "width": 695,
+          "height": 571,
+          "kind": "image"
+        }
+      ]
+    }
+  ],
+  "space-adhesion": [
+    {
+      "id": "space-adhesion-1",
+      "title": "Space adhesion: research plan and reference figures",
+      "sourceType": "Presentation PDF",
+      "items": [
+        {
+          "id": "PDF-22-Im0",
+          "source": "Presentation PDF · page 22",
+          "src": "/research/gallery/PDF-22-Im0.png",
+          "thumbnail": "/research/gallery/PDF-22-Im0-preview.webp",
+          "width": 1181,
+          "height": 580,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-22-Im1",
+          "source": "Presentation PDF · page 22",
+          "src": "/research/gallery/PDF-22-Im1.png",
+          "thumbnail": "/research/gallery/PDF-22-Im1-preview.webp",
+          "width": 439,
+          "height": 667,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-22-Im2",
+          "source": "Presentation PDF · page 22",
+          "src": "/research/gallery/PDF-22-Im2.png",
+          "thumbnail": "/research/gallery/PDF-22-Im2-preview.webp",
+          "width": 762,
+          "height": 508,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-22-Im3",
+          "source": "Presentation PDF · page 22",
+          "src": "/research/gallery/PDF-22-Im3.png",
+          "thumbnail": "/research/gallery/PDF-22-Im3-preview.webp",
+          "width": 1024,
+          "height": 677,
+          "kind": "image",
+          "caption": "AI-assisted literature-survey chart from the original research-plan slide; not a measured prototype result."
+        },
+        {
+          "id": "PDF-22-Im4",
+          "source": "Presentation PDF · page 22",
+          "src": "/research/gallery/PDF-22-Im4.png",
+          "thumbnail": "/research/gallery/PDF-22-Im4-preview.webp",
+          "width": 766,
+          "height": 508,
+          "kind": "image",
+          "caption": "AI-assisted literature-survey chart from the original research-plan slide; not a measured prototype result."
+        },
+        {
+          "id": "PDF-22-Im5",
+          "source": "Presentation PDF · page 22",
+          "src": "/research/gallery/PDF-22-Im5.png",
+          "thumbnail": "/research/gallery/PDF-22-Im5-preview.webp",
+          "width": 728,
+          "height": 314,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-22-Im6",
+          "source": "Presentation PDF · page 22",
+          "src": "/research/gallery/PDF-22-Im6.png",
+          "thumbnail": "/research/gallery/PDF-22-Im6-preview.webp",
+          "width": 734,
+          "height": 356,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-22-Im7",
+          "source": "Presentation PDF · page 22",
+          "src": "/research/gallery/PDF-22-Im7.png",
+          "thumbnail": "/research/gallery/PDF-22-Im7-preview.webp",
+          "width": 223,
+          "height": 267,
+          "kind": "image"
+        }
+      ]
+    }
+  ],
+  "insect-dexterous-grasping": [
+    {
+      "id": "insect-dexterous-grasping-1",
+      "title": "Adhesive fingertips and motion: research plan",
+      "sourceType": "Presentation PDF",
+      "items": [
+        {
+          "id": "PDF-23-Im0",
+          "source": "Presentation PDF · page 23",
+          "src": "/research/gallery/PDF-23-Im0.png",
+          "thumbnail": "/research/gallery/PDF-23-Im0-preview.webp",
+          "width": 371,
+          "height": 277,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-23-Im1",
+          "source": "Presentation PDF · page 23",
+          "src": "/research/gallery/PDF-23-Im1.png",
+          "thumbnail": "/research/gallery/PDF-23-Im1-preview.webp",
+          "width": 752,
+          "height": 768,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-23-Im2",
+          "source": "Presentation PDF · page 23",
+          "src": "/research/gallery/PDF-23-Im2.png",
+          "thumbnail": "/research/gallery/PDF-23-Im2-preview.webp",
+          "width": 776,
+          "height": 820,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-23-Im3",
+          "source": "Presentation PDF · page 23",
+          "src": "/research/gallery/PDF-23-Im3.png",
+          "thumbnail": "/research/gallery/PDF-23-Im3-preview.webp",
+          "width": 463,
+          "height": 230,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-23-Im4",
+          "source": "Presentation PDF · page 23",
+          "src": "/research/gallery/PDF-23-Im4.png",
+          "thumbnail": "/research/gallery/PDF-23-Im4-preview.webp",
+          "width": 341,
+          "height": 607,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-23-Im5",
+          "source": "Presentation PDF · page 23",
+          "src": "/research/gallery/PDF-23-Im5.png",
+          "thumbnail": "/research/gallery/PDF-23-Im5-preview.webp",
+          "width": 1024,
+          "height": 514,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-23-Im6",
+          "source": "Presentation PDF · page 23",
+          "src": "/research/gallery/PDF-23-Im6.png",
+          "thumbnail": "/research/gallery/PDF-23-Im6-preview.webp",
+          "width": 856,
+          "height": 505,
+          "kind": "image"
+        },
+        {
+          "id": "PDF-23-Im7",
+          "source": "Presentation PDF · page 23",
+          "src": "/research/gallery/PDF-23-Im7.png",
+          "thumbnail": "/research/gallery/PDF-23-Im7-preview.webp",
+          "width": 221,
+          "height": 201,
+          "kind": "image"
+        }
+      ]
+    }
+  ],
+  "orca-hand": [
+    {
+      "id": "orca-hand-1",
+      "title": "ORCA platform reference and hardware photograph",
+      "sourceType": "Presentation PDF",
+      "items": [
+        {
+          "id": "PDF-23-Im1",
+          "source": "Presentation PDF · page 23",
+          "src": "/research/gallery/PDF-23-Im1.png",
+          "thumbnail": "/research/gallery/PDF-23-Im1-preview.webp",
+          "width": 752,
+          "height": 768,
+          "kind": "image",
+          "caption": "ORCA platform reference diagram in the presentation."
+        },
+        {
+          "id": "PDF-23-Im4",
+          "source": "Presentation PDF · page 23",
+          "src": "/research/gallery/PDF-23-Im4.png",
+          "thumbnail": "/research/gallery/PDF-23-Im4-preview.webp",
+          "width": 341,
+          "height": 607,
+          "kind": "image",
+          "caption": "ORCA hardware photograph in the presentation."
+        }
+      ]
+    }
+  ]
+}
