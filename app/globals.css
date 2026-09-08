@@ -202,6 +202,7 @@ hr {
   padding-left: 25px;
 }
 .plain-list li { margin: 7px 0; }
+.news-list li { padding-left: 4px; }
 
 .entry-list {
   display: flex;

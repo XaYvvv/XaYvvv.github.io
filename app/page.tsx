@@ -77,6 +77,7 @@ export default function Home() {
         <a href="#about">About</a>
         <a href="#publications">Publications</a>
         <a href="#projects">Projects</a>
+        <a href="#news">News</a>
       </nav>
 
       <section className="bio" id="about" aria-labelledby="about-heading">
@@ -184,6 +185,32 @@ export default function Home() {
       <section className="simple-section" id="projects" aria-labelledby="projects-heading">
         <h2 id="projects-heading">Projects</h2>
         <ProjectList />
+      </section>
+
+      <hr />
+
+      <section className="simple-section" id="news" aria-labelledby="news-heading">
+        <h2 id="news-heading">NEWS</h2>
+        <ol className="plain-list news-list">
+          <li>
+            <a
+              href="https://mp.weixin.qq.com/s/ZlyLRGn4DWrylOxEjjYclQ"
+              target="_blank"
+              rel="noreferrer"
+            >
+              WeChat article 01
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://mp.weixin.qq.com/s/VPYYvHdOm8VhihbarvSUqQ"
+              target="_blank"
+              rel="noreferrer"
+            >
+              WeChat article 02
+            </a>
+          </li>
+        </ol>
       </section>
 
       <footer>
