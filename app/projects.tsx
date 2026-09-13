@@ -24,9 +24,15 @@ function ProjectPreview({ project }: { project: Project }) {
 }
 
 export function ProjectList() {
+  const visibleProjects = projects
+    .filter((project) => !publicationProjectIds.has(project.id))
+    .sort((a, b) =>
+      Number(b.id === "insect-dexterous-grasping") - Number(a.id === "insect-dexterous-grasping")
+    );
+
   return (
     <div className="project-list">
-      {projects.filter((project) => !publicationProjectIds.has(project.id)).map((project) => <ProjectPreview project={project} key={project.id} />)}
+      {visibleProjects.map((project) => <ProjectPreview project={project} key={project.id} />)}
     </div>
   );
 }

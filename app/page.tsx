@@ -1,5 +1,6 @@
 import { ProjectList } from "./projects";
 import { Timeline } from "./timeline";
+import { newsItems } from "./news-data";
 
 const links = {
   bit: "https://english.bit.edu.cn/",
@@ -14,7 +15,8 @@ const publications = [
     title:
       "Bioinspired Hierarchical Architecture with Water Transport Channels for Strong Adhesion at the Sweating Interface",
     authors: "Jieliang Zhao†,*, Yu Xiang†, et al.",
-    venue: "Advanced Science, 2026 · First student author / Co-first author · CAS Zone 1 Top · JCR Q1 · IF 14.1",
+    linkAdvisor: false,
+    venue: "Advanced Science, 2026 · First student author · JCR Q1 · IF 14.1",
     image: "/research/ppt/patch-architecture.png",
     alt: "Bioinspired hierarchical patch architecture and water-transport channels",
     details: "/projects/sweat-managing-patch",
@@ -38,6 +40,7 @@ const publications = [
     title:
       "A Worm-like Soft Robot Based on Adhesion-Controlled Electrohydraulic Actuators",
     authors: "Yangzhuo Wu, Zhe Sun, Yu Xiang, Jieliang Zhao",
+    linkAdvisor: false,
     venue: "Biomimetics, 2024 · JCR Q1",
     image: "/research/gallery/PDF-16-Im0-preview.webp",
     alt: "Electrohydraulic soft robot architecture and bioinspired friction pads",
@@ -48,20 +51,24 @@ const publications = [
   },
 ];
 
-function LinkedAuthors({ text }: { text: string }) {
-  const parts = text.split("Jieliang Zhao");
-
-  if (parts.length === 1) {
-    return text;
-  }
-
+function LinkedAuthors({ text, linkAdvisor = true }: { text: string; linkAdvisor?: boolean }) {
   return (
     <>
-      {parts[0]}
-      <a href={links.advisor} target="_blank" rel="noreferrer">
-        Jieliang Zhao
-      </a>
-      {parts[1]}
+      {text.split(/(Jieliang Zhao|Yu Xiang)/).map((part, index) => {
+        if (part === "Jieliang Zhao" && linkAdvisor) {
+          return (
+            <a key={index} href={links.advisor} target="_blank" rel="noreferrer">
+              {part}
+            </a>
+          );
+        }
+
+        if (part === "Yu Xiang") {
+          return <u key={index}>{part}</u>;
+        }
+
+        return part;
+      })}
     </>
   );
 }
@@ -156,11 +163,10 @@ export default function Home() {
                     {paper.title}
                   </a>
                 </h3>
-                <p><LinkedAuthors text={paper.authors} /></p>
+                <p><LinkedAuthors text={paper.authors} linkAdvisor={paper.linkAdvisor} /></p>
                 <p className="venue">
                   {paper.venue} ·{" "}
                   <a href={paper.href} target="_blank" rel="noreferrer">[paper]</a>
-                  {" · "}<a href={paper.details}>[research details]</a>
                 </p>
                 <p>{paper.summary}</p>
               </div>
@@ -168,12 +174,12 @@ export default function Home() {
           ))}
         </div>
         <article className="entry publication manuscript-entry">
-          <a className="publication-cover" href="/projects/space-adhesion" aria-label="Research details: variable-stiffness adhesion for space manipulation">
+          <div className="publication-cover">
             <img src="/research/gallery/PDF-22-Im0-preview.webp" alt="Insect tarsal attachment and detachment sequence" loading="lazy" />
-          </a>
+          </div>
           <div className="entry-body">
-          <h3><a href="/projects/space-adhesion">Insect Tarsus-Inspired Variable-Stiffness Adhesion for Extreme Space Manipulation</a></h3>
-          <p>Yu Xiang, et al.</p>
+          <h3>Insect Tarsus-Inspired Variable-Stiffness Adhesion for Extreme Space Manipulation</h3>
+          <p><u>Yu Xiang</u>, et al.</p>
           <p className="meta">Manuscript in preparation</p>
           </div>
         </article>
@@ -191,26 +197,20 @@ export default function Home() {
 
       <section className="simple-section" id="news" aria-labelledby="news-heading">
         <h2 id="news-heading">NEWS</h2>
-        <ol className="plain-list news-list">
-          <li>
-            <a
-              href="https://mp.weixin.qq.com/s/ZlyLRGn4DWrylOxEjjYclQ"
-              target="_blank"
-              rel="noreferrer"
-            >
-              WeChat article 01
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://mp.weixin.qq.com/s/VPYYvHdOm8VhihbarvSUqQ"
-              target="_blank"
-              rel="noreferrer"
-            >
-              WeChat article 02
-            </a>
-          </li>
-        </ol>
+        <ul className="dated-list news-list">
+          {newsItems.map((item) => (
+            <li key={item.href}>
+              <span>
+                {item.publishedAt ? (
+                  <time dateTime={item.publishedAt}>{item.publishedAt}</time>
+                ) : "日期待核实"}
+              </span>
+              <a href={item.href} target="_blank" rel="noreferrer">
+                {item.title}
+              </a>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <footer>

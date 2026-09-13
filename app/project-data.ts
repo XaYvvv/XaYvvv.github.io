@@ -167,7 +167,7 @@ export const projects: Project[] = [
   {
     id: "insect-dexterous-grasping",
     title: "Dexterous Grasping via Insect Wet Adhesion",
-    shortTitle: "Insect-Inspired Dexterous Grasping",
+    shortTitle: "Insect-Inspired Dexterous Grasping (Ongoing)",
     category: "Research project · In progress",
     role: "Independent research",
     period: "In progress",
