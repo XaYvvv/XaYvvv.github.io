@@ -20,11 +20,6 @@ export const projectSections: Record<string, EvidenceSection[]> = {
       { id: "PDF-21-Im4", caption: "Chromatographic traces shown in the presentation." },
     ] },
   ],
-  "orca-hand": [
-    { id: "mechanism-study", title: "Mechanism and tendon transmission", description: "The platform reference identifies the mechanical features examined during reproduction, including the tendon path, joint arrangement and tensioning mechanisms.", figures: [
-      { id: "PDF-23-Im1", caption: "Reference diagram of the open-source ORCA hand. This is the platform illustration used for the design study, not a photograph of the reproduced hand.", wide: true },
-    ] },
-  ],
   "formula-student": [
     { id: "vehicle-dynamics", title: "Tire response and suspension kinematics", description: "Tire modelling and suspension analysis inform the geometry and setup taken into vehicle testing.", figures: [
       { id: "PPT-image58", caption: "Tire response curves used in vehicle-performance modelling." },

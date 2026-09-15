@@ -1,6 +1,9 @@
 import { notFound } from "next/navigation";
 import { getProject, projects, publicationProjectIds, type Figure } from "../../project-data";
 import { ProjectEvidence, EvidenceNavigation } from "../../project-evidence";
+import { FormulaStudentDetail } from "../../formula-student-detail";
+import { HoneybeeDetail } from "../../honeybee-detail";
+import { OrigamiDetail } from "../../origami-detail";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -12,6 +15,24 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props) {
   const project = getProject((await params).slug);
+  if (project?.id === "origami-wall-climbing-robot") {
+    return {
+      title: "折纸式仿昆虫爬壁机器人 | 项宇",
+      description: "折纸机身、四杆连杆腿、自适应踝与负压吸附足端的整机设计及加工装配。",
+    };
+  }
+  if (project?.id === "honeybee-adhesion") {
+    return {
+      title: "极端环境可控黏附与蜜蜂爪垫界面力学 | 项宇",
+      description: "蜜蜂足垫的结构形变、三相界面机制、仿生湿黏附设计及极端环境抓附研究。",
+    };
+  }
+  if (project?.id === "formula-student") {
+    return {
+      title: "大学生方程式赛车设计与制造 | 项宇",
+      description: "项宇在北京理工大学方程式车队的工程实践：轮胎与悬架机理、结构设计、制造装配、实车测试和团队协作。",
+    };
+  }
   return {
     title: project ? `${project.shortTitle} | Yu Xiang` : "Project not found | Yu Xiang",
     description: project?.summary,
@@ -32,6 +53,9 @@ function ProjectFigure({ figure }: { figure: Figure }) {
 export default async function ProjectPage({ params }: Props) {
   const project = getProject((await params).slug);
   if (!project) notFound();
+  if (project.id === "formula-student") return <FormulaStudentDetail />;
+  if (project.id === "honeybee-adhesion") return <HoneybeeDetail />;
+  if (project.id === "origami-wall-climbing-robot") return <OrigamiDetail />;
   const publication = publicationProjectIds.has(project.id);
   const homeAnchor = publication ? "/#publications" : "/#projects";
   const homeLabel = publication ? "Publications" : "Projects";

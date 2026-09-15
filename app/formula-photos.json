@@ -1,0 +1,14 @@
+{
+  "campus-car": { "source": "campus-testing.jpg", "x": 0, "y": 3420, "width": 1667, "height": 1095 },
+  "rear-assembly": { "source": "hardware-assembly.jpg", "x": 1, "y": 45, "width": 1528, "height": 1146 },
+  "wheel-assembly": { "source": "hardware-assembly.jpg", "x": 15, "y": 4122, "width": 1500, "height": 1125 },
+  "workshop-tuning": { "source": "workshop-development.jpg", "x": 197, "y": 879, "width": 1144, "height": 858 },
+  "system-integration": { "source": "hardware-assembly.jpg", "x": 197, "y": 3251, "width": 1136, "height": 852 },
+  "handling-test": { "source": "track-testing.jpg", "x": 114, "y": 1036, "width": 1596, "height": 1197 },
+  "track-driving": { "source": "track-testing.jpg", "x": 240, "y": 3485, "width": 1344, "height": 1008 },
+  "competition-preparation": { "source": "competition-teamwork.jpg", "x": 84, "y": 17, "width": 1484, "height": 1113 },
+  "competition-team": { "source": "competition-teamwork.jpg", "x": 100, "y": 2406, "width": 1452, "height": 1089 },
+  "team-2022": { "source": "team-seasons.jpg", "x": 45, "y": 65, "width": 2070, "height": 1357 },
+  "team-2023": { "source": "team-seasons.jpg", "x": 45, "y": 1482, "width": 2070, "height": 1361 },
+  "team-2024": { "source": "team-seasons.jpg", "x": 45, "y": 2921, "width": 2070, "height": 1352 }
+}
