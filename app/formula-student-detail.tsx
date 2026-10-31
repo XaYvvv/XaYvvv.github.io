@@ -1,4 +1,5 @@
 import photos from "./formula-photos.json";
+import { DeferredVideo } from "./deferred-video";
 const assetRoot = "/research/formula-student/";
 
 function Photo({ name, caption, eager = false }: {
@@ -19,7 +20,7 @@ function Photo({ name, caption, eager = false }: {
         style={{ aspectRatio: photo.width / photo.height }}
       >
         <img
-          src={src}
+          src={`/research/optimized/formula-${name}.webp`}
           alt={caption}
           width={photo.width}
           height={photo.height}
@@ -98,7 +99,7 @@ export function FormulaStudentDetail() {
         <TechnicalFigure file="tire-suspension-workflow.png" caption="轮胎机理分析、悬架仿真、零部件开发与实车验证流程。" />
         <p className="fsae-source-note">橡胶摩擦机理示意来源：Continental AG（见原图标注）。</p>
         <figure className="fsae-simulation">
-          <video src={assetRoot + "adams-suspension.mp4"} poster={assetRoot + "adams-suspension-poster.jpg"} autoPlay muted loop playsInline preload="metadata" aria-label="ADAMS 悬架运动及载荷矢量仿真演示" />
+          <DeferredVideo src={assetRoot + "adams-suspension.mp4"} poster={assetRoot + "adams-suspension-poster.jpg"} width={832} height={898} label="ADAMS 悬架运动及载荷矢量仿真演示" />
           <figcaption>ADAMS 悬架仿真：车轮运动、推杆与弹簧阻尼单元响应，以及载荷矢量变化。</figcaption>
         </figure>
       </section>
@@ -162,7 +163,7 @@ export function FormulaStudentDetail() {
           <Photo name="track-driving" caption="车辆动态行驶记录。" />
         </div>
         <figure className="fsae-driving">
-          <img src="/research/covers/formula-student.webp" alt="方程式赛车在锥桶场地中的动态行驶演示" loading="lazy" />
+          <DeferredVideo src="/research/optimized/formula-cover.mp4" poster="/research/optimized/formula-cover-poster.webp" width={400} height={226} label="方程式赛车在锥桶场地中的动态行驶演示" />
           <figcaption>场地动态测试。</figcaption>
         </figure>
         <h3>测试评价与参数修正</h3>

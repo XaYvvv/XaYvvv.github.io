@@ -1,9 +1,11 @@
+import { DeferredVideo } from "./deferred-video";
+
 const base = "/research/parallel-waist/";
 
 function WaistFigure({ file, caption, eager = false }: { file: string; caption: string; eager?: boolean }) {
   return <figure className="waist-figure">
     <a href={base + file} target="_blank" rel="noreferrer" aria-label={`查看原图：${caption}`}>
-      <img src={base + file} alt={caption} loading={eager ? "eager" : "lazy"} />
+      <img src={file.endsWith("-reference.png") ? "/research/optimized/" + file.replace(".png", ".webp") : base + file} alt={caption} loading={eager ? "eager" : "lazy"} />
     </a>
     <figcaption>{caption}</figcaption>
   </figure>;
@@ -25,7 +27,12 @@ export function ParallelWaistDetail() {
     </header>
 
     <div className="waist-motion">
-      <WaistFigure file="motion.gif" eager caption="运动仿真示例：机构姿态与左右曲柄角度。" />
+      <figure className="waist-figure">
+        <a href="/research/optimized/waist-demo.mp4" target="_blank" rel="noreferrer" aria-label="查看运动仿真演示">
+          <DeferredVideo src="/research/optimized/waist-demo.mp4" poster="/research/optimized/waist-demo-poster.webp" width={1344} height={778} label="运动仿真示例：机构姿态与左右曲柄角度" />
+        </a>
+        <figcaption>运动仿真示例：机构姿态与左右曲柄角度。</figcaption>
+      </figure>
     </div>
 
     <section aria-labelledby="waist-analysis">

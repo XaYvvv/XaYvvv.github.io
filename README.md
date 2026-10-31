@@ -29,7 +29,9 @@
 
 例如把图片放到 `public/research/covers/example.webp`，网页中引用的地址就是 `/research/covers/example.webp`，不需要写本机的 C 盘路径。
 
-Projects 封面直接引用动态图。视频使用静音、循环、内联自动播放属性；没有额外播放按钮，也不依赖页面脚本决定是否加载。浏览器仍可能暂停后台标签页或不可见的视频。
+Projects 封面和项目演示采用网页压缩版视频。`app/deferred-video.tsx` 先显示封面图，在视频接近可视区域时才下载并静音循环播放，离开画面或切换到后台时暂停；没有额外播放按钮。请保留 `data-src`，静态发布脚本据此检查并保留延迟加载的视频文件。
+
+网页压缩素材在 `public/research/optimized/`。赛车照片和腰部机构参考图使用较小的 WebP 展示，点击仍可查看原图。需要重新生成时，安装 Pillow、准备 FFmpeg 后运行 `python scripts/optimize-media.py --ffmpeg <FFmpeg路径>`；生成后运行 `pnpm build:pages` 更新素材白名单。压缩文件已随源码保存，GitHub 构建不需要安装这些媒体工具。
 
 字体采用 Source Serif 4（英文标题）、思源宋体 Noto Serif SC（中文标题）和 Inter（英文正文、界面）；中文正文使用设备上的苹方或微软雅黑。字号和字体组合统一在 `app/globals.css` 顶部调整。字体文件在本地托管，按字符范围加载，不依赖 Google Fonts 在线服务；授权说明随发布包保存在 `public/fonts/LICENSES.txt`，更新字体时请保留。
 

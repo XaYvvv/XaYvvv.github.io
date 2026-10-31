@@ -39,7 +39,7 @@ export async function preparePages(root) {
     const html = await readFile(file, 'utf8');
     const relative = path.relative(output, file).split(path.sep).join('/');
     const origin = 'https://xiangyv.me/' + relative.replace(/index\.html$/, '');
-    for (const match of html.matchAll(/\b(?:src|href|poster)="([^"]*)"/g)) await checkLink(match[1], origin);
+    for (const match of html.matchAll(/\b(?:data-src|src|href|poster)="([^"]*)"/g)) await checkLink(match[1], origin);
   }
   for (const file of files.filter(file => file.endsWith('.css'))) {
     const css = await readFile(file, 'utf8');

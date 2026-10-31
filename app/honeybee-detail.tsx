@@ -1,3 +1,5 @@
+import { DeferredVideo } from "./deferred-video";
+
 const root = "/research/honeybee-study/";
 const papers = {
   interface: "https://doi.org/10.1007/s40544-023-0743-0",
@@ -57,7 +59,7 @@ export function HoneybeeDetail() {
       </div>
       <p>因此，足垫不能仅按连续液膜与平面接触处理。微框架几何、液体体积和气穴分布共同决定液桥形态，是解释方向性黏附和建立人工结构参数的关键。</p>
       <figure className="honeybee-video">
-        <video src="/research/gallery/PPT-media2.mp4" poster="/research/ppt/honeybee-footpad.png" autoPlay muted loop playsInline preload="metadata" aria-label="蜜蜂足垫接触与形变显微记录" />
+        <DeferredVideo src="/research/optimized/honeybee-full.mp4" poster="/research/optimized/honeybee-poster.webp" width={1024} height={768} label="蜜蜂足垫接触与形变显微记录" />
         <figcaption>蜜蜂足垫接触、展开与形变的显微记录。</figcaption>
       </figure>
     </section>

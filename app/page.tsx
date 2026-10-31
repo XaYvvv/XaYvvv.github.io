@@ -18,7 +18,7 @@ const publications = [
     authors: "Jieliang Zhao†,*, Yu Xiang†, et al.",
     linkAdvisor: false,
     venue: "Advanced Science, 2026 · First student author · JCR Q1 · IF 14.1",
-    image: "/research/ppt/patch-architecture.png",
+    image: "/research/optimized/patch-architecture.webp",
     alt: "Bioinspired hierarchical patch architecture and water-transport channels",
     details: "/projects/sweat-managing-patch",
     summary:
@@ -30,7 +30,7 @@ const publications = [
       "Bionic Wet Adhesive Surface with Micronano Hierarchical Structure for Robust Biosignal Monitoring",
     authors: "Zhiyun Ma, Lulu Liang, Chenyang Zhang, Yu Xiang, et al.",
     venue: "ACS Applied Materials & Interfaces, 2025 · JCR Q1",
-    image: "/research/ppt/hybrid-adhesive-design.png",
+    image: "/research/optimized/hybrid-adhesive-design.webp",
     alt: "Honeybee and tree-frog inspired wet adhesive surface",
     details: "/projects/hybrid-wet-adhesive",
     summary:
@@ -89,7 +89,7 @@ export default function Home() {
 
       <section className="bio content-panel" id="about" aria-labelledby="about-heading">
         <aside>
-          <img className="portrait" src="/portrait.webp" alt="Portrait of Yu Xiang" />
+          <img className="portrait" src="/portrait.webp" alt="Portrait of Yu Xiang" width="215" height="232" fetchPriority="high" decoding="async" />
           <p className="profile-role">Mechanical Engineering<br />Bioinspired Robotics</p>
           <nav className="profile-links" aria-label="Profile links">
             <a href="mailto:xyu8468@gmail.com">Email</a>

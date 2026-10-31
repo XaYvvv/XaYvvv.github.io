@@ -1,3 +1,5 @@
+import { DeferredVideo } from "./deferred-video";
+
 const root = "/research/insect-grasping/";
 
 function Figure({ file, caption, wide = false }: { file: string; caption: string; wide?: boolean }) {
@@ -29,7 +31,7 @@ export function InsectGraspingDetail() {
       <div className="grasping-grid">
         <Figure file="grasping-observations.png" caption="不同形状目标的抓持实验与接近、接触、抓持动作序列。" />
         <figure className="grasping-figure grasping-motion">
-          <div><img src="/research/covers/insect-grasping.webp" alt="昆虫足端接触与抓取动作演示" /></div>
+          <div><DeferredVideo src="/research/optimized/insect-cover.mp4" poster="/research/optimized/insect-cover-poster.webp" width={540} height={318} label="昆虫足端接触与抓取动作演示" /></div>
           <figcaption>昆虫足端接触与抓取动作。</figcaption>
         </figure>
       </div>

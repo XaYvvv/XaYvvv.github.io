@@ -1,3 +1,5 @@
+import { DeferredVideo } from "./deferred-video";
+
 const assetRoot = "/research/origami-study/";
 
 function Figure({ file, caption, eager = false, wide = false }: {
@@ -47,7 +49,7 @@ export function OrigamiDetail() {
         <Figure file="internal-frame.png" caption="插装式内骨架及六个微型电机的布置。" />
       </div>
       <figure className="origami-animation">
-        <img src="/research/covers/origami-body.webp" alt="折纸机身折叠与形变演示" loading="lazy" />
+        <DeferredVideo src="/research/optimized/origami-cover.mp4" poster="/research/optimized/origami-cover-poster.webp" width={540} height={404} label="折纸机身折叠与形变演示" />
         <figcaption>折纸机身样件的形变演示。</figcaption>
       </figure>
     </section>
