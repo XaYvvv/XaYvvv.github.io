@@ -1,3 +1,4 @@
+import { IconHeading } from "./icon-heading";
 import { DeferredVideo } from "./deferred-video";
 
 const assetRoot = "/research/origami-study/";
@@ -30,7 +31,7 @@ export function OrigamiDetail() {
     </nav>
 
     <section id="overview" aria-labelledby="origami-overview">
-      <h2 id="origami-overview">总体设计</h2>
+      <IconHeading id="origami-overview" icon="fold">总体设计</IconHeading>
       <p>小型爬壁机器人的设计难点不仅在于附着力，还包括驱动部件的空间布置、足端接触姿态和制造装配。该方案以昆虫六足布局与三角步态为参考，用折纸结构形成机身和关节，六个微型电机驱动腿部，外置气压控制装置连接足垫及颈部转向机构。</p>
       <dl className="origami-dofs">
         <div><dt>63.46 × 79.84 × 32.33 mm</dt><dd>报告中的整机设计尺寸，宽、高含腿部</dd></div>
@@ -41,7 +42,7 @@ export function OrigamiDetail() {
     </section>
 
     <section id="origami-body" aria-labelledby="origami-body-heading">
-      <h2 id="origami-body-heading">机身与装配：从平面展开到空间结构</h2>
+      <IconHeading id="origami-body-heading" icon="layers">机身与装配：从平面展开到空间结构</IconHeading>
       <p>机身采用 PET 平面材料切割后折叠成形，展开图中预留折痕、驱动安装孔和减重开口。内部通过平板插装构成支撑骨架，用于定位电机、控制板和外壳，便于分件加工与拆装。</p>
       <Figure file="body-flat-pattern.png" wide caption="机身二维展开图；黄色虚线为折痕，孔槽对应安装与连接位置。" />
       <div className="origami-grid">
@@ -55,7 +56,7 @@ export function OrigamiDetail() {
     </section>
 
     <section id="leg-and-ankle" aria-labelledby="origami-leg-heading">
-      <h2 id="origami-leg-heading">腿部传动与足端姿态适应</h2>
+      <IconHeading id="origami-leg-heading" icon="mechanism">腿部传动与足端姿态适应</IconHeading>
       <p>腿部采用四杆连杆机构传递电机输入，并围绕三角步态所需的足端轨迹进行构型设计。腿部末端延伸出三个折纸单元组成的柔性踝部，使足垫相对腿部具有被动调整接触姿态的能力。</p>
       <p>踝部设计以近似球铰的传力方式为目标：传递支撑力，同时减小腿部姿态变化对足垫贴合的影响。报告展示了展开结构和折叠样件，尚未提供关节刚度与转角范围的定量测试。</p>
       <div className="origami-grid">
@@ -65,7 +66,7 @@ export function OrigamiDetail() {
     </section>
 
     <section id="steering" aria-labelledby="origami-steering-heading">
-      <h2 id="origami-steering-heading">气动颈部转向</h2>
+      <IconHeading id="origami-steering-heading" icon="cycle">气动颈部转向</IconHeading>
       <p>前后机身之间设置折纸颈部，利用三棱柱形气囊的充气与抽空改变构型，产生头部相对机身的偏转。该机构与足垫共用气压控制设备，并在方案中配合六足驱动完成转向。</p>
       <div className="origami-grid">
         <Figure file="neck-steering-layout.png" caption="颈部转向机构在前后机身之间的安装位置。" />
@@ -74,7 +75,7 @@ export function OrigamiDetail() {
     </section>
 
     <section id="attachment" aria-labelledby="origami-attachment-heading">
-      <h2 id="origami-attachment-heading">气动足垫与连接框架</h2>
+      <IconHeading id="origami-attachment-heading" icon="droplet">气动足垫与连接框架</IconHeading>
       <p>足垫参考负压式黏附结构，采用带内部气路的硅橡胶柔性单元。按报告中的设计，气路充气引起足垫形变，通过接触区域内外的压差产生附着力；这一实现方式与蜜蜂足端的湿黏附机理不同。</p>
       <p>足垫上方设置刚性框架，将柔性单元连接到踝部，并为足垫变形保留空间，减少膨胀过程与腿部机构的干涉。整机方案包含外置气泵与电磁阀，气源并未集成在上述机身尺寸内。</p>
       <div className="origami-grid">
@@ -88,7 +89,7 @@ export function OrigamiDetail() {
     </section>
 
     <section id="contribution" aria-labelledby="origami-contribution-heading">
-      <h2 id="origami-contribution-heading">个人工作与验证范围</h2>
+      <IconHeading id="origami-contribution-heading" icon="check">个人工作与验证范围</IconHeading>
       <ul className="origami-work">
         <li><strong>机构设计与集成：</strong>负责整机构型，协调折纸机身、腿部连杆、被动踝部和气动足端的连接与空间布置。</li>
         <li><strong>加工与装配：</strong>开展零部件加工、折叠样件制作及整机装配，将展开设计转化为可装配结构。</li>

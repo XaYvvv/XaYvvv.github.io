@@ -1,3 +1,5 @@
+import { IconHeading } from "./icon-heading";
+
 const milestones = [
   {
     date: "2020.10",
@@ -49,7 +51,7 @@ const milestones = [
 export function Timeline() {
   return (
     <section className="journey" aria-labelledby="journey-heading">
-      <h3 id="journey-heading">Education &amp; Teams</h3>
+      <IconHeading as="h3" id="journey-heading" icon="education">Education &amp; Teams</IconHeading>
       <ol className="timeline" role="list">
         {milestones.map((item) => (
           <li className="timeline-item" key={item.dateTime}>

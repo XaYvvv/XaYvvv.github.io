@@ -1,3 +1,4 @@
+import { IconHeading } from "./icon-heading";
 import { DeferredVideo } from "./deferred-video";
 
 const base = "/research/parallel-waist/";
@@ -36,7 +37,7 @@ export function ParallelWaistDetail() {
     </div>
 
     <section aria-labelledby="waist-analysis">
-      <h2 id="waist-analysis">分析功能</h2>
+      <IconHeading id="waist-analysis" icon="chart">分析功能</IconHeading>
       <ul>
         <li>运动学：参数化调整机构尺寸，求解正逆运动学，计算姿态可达域并回放运动轨迹。</li>
         <li>载荷：根据质量、质心及运动状态，计算重力与惯性作用下的曲柄输出轴力矩、连杆轴力和十字铰合反力。</li>
@@ -49,7 +50,7 @@ export function ParallelWaistDetail() {
     </section>
 
     <section aria-labelledby="waist-development">
-      <h2 id="waist-development">实现与适用范围</h2>
+      <IconHeading id="waist-development" icon="tools">实现与适用范围</IconHeading>
       <p>程序采用 Python、NumPy、SciPy 和 Tkinter，借助 AI 辅助开发，已打包为 Windows 单文件 EXE。批量计算在后台进程执行，结合绘制缓存与分频刷新改善交互响应。</p>
       <p>当前载荷分析采用理想运动副与单质点模型，不包含完整多刚体动力学及实机闭环控制。尺寸优化与运动平顺性优化为后续研究方向。</p>
     </section>

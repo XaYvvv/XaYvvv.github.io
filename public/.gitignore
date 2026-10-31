@@ -2,6 +2,7 @@
 *
 !*/
 !.gitignore
+!/favicon.svg
 !/fonts/LICENSES.txt
 !/fonts/inter-001.woff2
 !/fonts/inter-002.woff2
@@ -110,7 +111,7 @@
 !/fonts/source-serif-4-105.woff2
 !/logos/bib-lab-gold-v2.png
 !/logos/bytedance-seed-wordmark.svg
-!/portrait.webp
+!/portrait-outdoors.webp
 !/research/formula-student/adams-suspension-poster.jpg
 !/research/formula-student/adams-suspension.mp4
 !/research/formula-student/campus-car.png

@@ -2,6 +2,7 @@ import { ProjectList } from "./projects";
 import { Timeline } from "./timeline";
 import { newsItems } from "./news-data";
 import { SectionNav } from "./section-nav";
+import { HeadingIcon, IconHeading } from "./icon-heading";
 
 const links = {
   bit: "https://english.bit.edu.cn/",
@@ -89,10 +90,9 @@ export default function Home() {
 
       <section className="bio content-panel" id="about" aria-labelledby="about-heading">
         <aside>
-          <img className="portrait" src="/portrait.webp" alt="Portrait of Yu Xiang" width="215" height="232" fetchPriority="high" decoding="async" />
+          <img className="portrait" src="/portrait-outdoors.webp" alt="Portrait of Yu Xiang" width="640" height="854" fetchPriority="high" decoding="async" />
           <p className="profile-role">Mechanical Engineering<br />Bioinspired Robotics</p>
           <nav className="profile-links" aria-label="Profile links">
-            <a href="mailto:xyu8468@gmail.com">Email</a>
             <a
               href="https://scholar.google.com/citations?hl=zh-CN&user=AHiCmowAAAAJ"
               target="_blank"
@@ -104,7 +104,7 @@ export default function Home() {
         </aside>
 
         <div className="bio-text">
-          <h2 id="about-heading">About</h2>
+          <IconHeading id="about-heading" icon="person">About</IconHeading>
           <p>
             I am a master&apos;s student in Mechanical Engineering at{" "}
             <a href={links.bit} target="_blank" rel="noreferrer">
@@ -123,15 +123,17 @@ export default function Home() {
             consumer electronics, medical devices and related fields. Please{" "}
             <a href="mailto:xyu8468@gmail.com">get in touch</a> to discuss opportunities.
           </p>
-          <p>
-            Email: <a href="mailto:xyu8468@gmail.com">xyu8468@gmail.com</a>
+          <p className="contact-line">
+            <HeadingIcon name="email" />
+            <span>Email: <a href="mailto:xyu8468@gmail.com">xyu8468@gmail.com</a></span>
           </p>
+          <p className="contact-line"><HeadingIcon name="wechat" /><span>Wechat：XYv6626</span></p>
         </div>
         <Timeline />
       </section>
 
       <section className="simple-section content-panel" id="publications" aria-labelledby="publications-heading">
-        <h2 id="publications-heading">Publications</h2>
+        <IconHeading id="publications-heading" icon="book">Publications</IconHeading>
         <div className="entry-list">
           {publications.map((paper) => (
             <article className="entry publication" key={paper.title}>
@@ -164,12 +166,12 @@ export default function Home() {
       </section>
 
       <section className="simple-section content-panel" id="projects" aria-labelledby="projects-heading">
-        <h2 id="projects-heading">Projects</h2>
+        <IconHeading id="projects-heading" icon="tools">Projects</IconHeading>
         <ProjectList />
       </section>
 
       <section className="simple-section content-panel" id="news" aria-labelledby="news-heading">
-        <h2 id="news-heading">Media &amp; Activities</h2>
+        <IconHeading id="news-heading" icon="media">Media &amp; Activities</IconHeading>
         <ul className="dated-list news-list">
           {newsItems.map((item) => (
             <li key={item.href}>

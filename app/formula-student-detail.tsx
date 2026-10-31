@@ -1,3 +1,4 @@
+import { IconHeading } from "./icon-heading";
 import photos from "./formula-photos.json";
 import { DeferredVideo } from "./deferred-video";
 const assetRoot = "/research/formula-student/";
@@ -70,7 +71,7 @@ export function FormulaStudentDetail() {
       </nav>
 
       <section id="overview" aria-labelledby="fsae-overview-heading">
-        <h2 id="fsae-overview-heading">项目概述</h2>
+        <IconHeading id="fsae-overview-heading" icon="car">项目概述</IconHeading>
         <p>2020—2024 年参与北京理工大学方程式赛车的设计、制造与赛事准备，先后担任底盘负责人、机械系统负责人及车队队长。工作涵盖悬架与转向运动学设计、车辆动力学分析、结构校核、制造装配和实车测试，并逐步扩展至机械子系统接口协调与整车开发进度管理。</p>
         <dl className="fsae-roles">
           <div><dt>第 1—2 年 · 底盘负责人</dt><dd>悬架几何、转向运动学与结构设计</dd></div>
@@ -81,7 +82,7 @@ export function FormulaStudentDetail() {
       </section>
 
       <section id="design-goals" aria-labelledby="fsae-goals-heading">
-        <h2 id="fsae-goals-heading">整车目标与底盘开发</h2>
+        <IconHeading id="fsae-goals-heading" icon="target">整车目标与底盘开发</IconHeading>
         <p>底盘开发以赛事规则、预算及制造周期为约束，围绕轮胎性能利用率、操控平衡与耐久可靠性展开。结合整车质量、重心位置、轮胎特性和典型赛道工况，将整车性能需求分解为悬架运动学、侧倾刚度分配、转向特性及制动系统要求。</p>
         <p>方案评估关注不同工况下的性能收益，以及质量、结构刚度、制造成本和调试周期之间的权衡，避免以单一部件指标替代整车性能判断。</p>
         <TechnicalFigure file="engineering-objectives.png" caption="整车性能目标分解及车辆子系统与轮胎性能的关联。" />
@@ -91,7 +92,7 @@ export function FormulaStudentDetail() {
       </section>
 
       <section id="suspension" aria-labelledby="fsae-suspension-heading">
-        <h2 id="fsae-suspension-heading">悬架运动学与车辆动力学</h2>
+        <IconHeading id="fsae-suspension-heading" icon="mechanism">悬架运动学与车辆动力学</IconHeading>
         <h3>载荷转移与侧倾刚度分配</h3>
         <p>以轮胎载荷敏感性为分析基础，区分簧上、簧下质量及几何、弹性因素对横向载荷转移的贡献，评估悬架几何与前后轴侧倾刚度分配对操控平衡的影响。参数匹配同时考虑车轮姿态、车身运动及轮胎工作状态。</p>
         <h3>几何设计与参数迭代</h3>
@@ -105,7 +106,7 @@ export function FormulaStudentDetail() {
       </section>
 
       <section id="lightweight" aria-labelledby="fsae-lightweight-heading">
-        <h2 id="fsae-lightweight-heading">结构轻量化：载荷获取与方案比较</h2>
+        <IconHeading id="fsae-lightweight-heading" icon="layers">结构轻量化：载荷获取与方案比较</IconHeading>
         <p>以悬架摇臂、立柱和转向支架为对象，将载荷输入、连接约束、设计空间和制造条件纳入结构优化。工作包括 2022 年摇臂衍生式设计研究，以及 2024 年车队零部件优化设计指导。</p>
 
         <h3>悬架摇臂：衍生式设计与拓扑优化</h3>
@@ -141,7 +142,7 @@ export function FormulaStudentDetail() {
       </section>
 
       <section id="manufacturing" aria-labelledby="fsae-manufacturing-heading">
-        <h2 id="fsae-manufacturing-heading">结构设计、制造与装配</h2>
+        <IconHeading id="fsae-manufacturing-heading" icon="tools">结构设计、制造与装配</IconHeading>
         <p>围绕制动、转弯及路面冲击等载荷工况开展载荷分析、有限元校核与拓扑优化，检查杆件、轴承、摇臂支座和车架安装点的受力与变形，评估连接柔度对车轮定位参数的影响。</p>
         <p>将加工基准、焊接可达性、装配顺序、工具间隙、标准件选型及公差链纳入工程图纸与制造跟进，兼顾结构性能、定位调节范围和维修空间。机械系统统筹阶段进一步协调悬架、传动、制动及电气系统的布置与接口。</p>
         <div className="fsae-wheel-cad">
@@ -156,7 +157,7 @@ export function FormulaStudentDetail() {
       </section>
 
       <section id="validation" aria-labelledby="fsae-validation-heading">
-        <h2 id="fsae-validation-heading">实车测试与数据复盘</h2>
+        <IconHeading id="fsae-validation-heading" icon="chart">实车测试与数据复盘</IconHeading>
         <p>通过悬架运动学与柔顺性（K&C）检查、四轮定位及赛道测试验证底盘设定，实车测试记录的<strong>峰值横向加速度达到 2.1g</strong>。对设定效果的评估结合操控一致性、轮胎状态及分段表现，不以单次峰值作为整车性能的唯一依据。</p>
         <div className="fsae-photo-grid">
           <Photo name="handling-test" caption="锥桶场地中的转向与操控测试。" />
@@ -175,7 +176,7 @@ export function FormulaStudentDetail() {
       </section>
 
       <section id="team" aria-labelledby="fsae-team-heading">
-        <h2 id="fsae-team-heading">开发协调与团队协作</h2>
+        <IconHeading id="fsae-team-heading" icon="team">开发协调与团队协作</IconHeading>
         <p>在机械系统负责人及队长阶段，工作重点由单一子系统设计扩展至跨组接口协调、开发节点安排及赛事准备。统筹设计冻结、采购、装配与测试进度，协调性能目标与交付周期之间的关系。</p>
         <div className="fsae-photo-grid">
           <Photo name="competition-preparation" caption="赛事现场的车辆准备。" />
@@ -191,7 +192,7 @@ export function FormulaStudentDetail() {
       </section>
 
       <section className="fsae-reading" aria-labelledby="fsae-reading-heading">
-        <h2 id="fsae-reading-heading">参考阅读</h2>
+        <IconHeading id="fsae-reading-heading" icon="book">参考阅读</IconHeading>
         <ul>
           <li><a href="https://www.designjudges.com/articles/conceptual-and-objective-design-in-fsae" target="_blank" rel="noreferrer">整车概念与目标设计 · DesignJudges</a></li>
           <li><a href="https://www.designjudges.com/articles/simple-kinematic-philosophies" target="_blank" rel="noreferrer">悬架运动学设计思路 · DesignJudges</a></li>

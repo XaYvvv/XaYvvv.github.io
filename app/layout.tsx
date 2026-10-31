@@ -5,6 +5,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Yu Xiang — Bioinspired Robotics & Mechanical Design',
   description: 'Yu Xiang builds bioinspired adhesive interfaces, dexterous mechanisms and humanoid robotic hardware.',
+  icons: { icon: '/favicon.svg' },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

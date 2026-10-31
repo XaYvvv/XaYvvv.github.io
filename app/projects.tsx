@@ -1,5 +1,14 @@
 import { projects, publicationProjectIds, type Project } from "./project-data";
 import { AnimatedProjectCover } from "./animated-project-cover";
+import { IconHeading, type HeadingIconName } from "./icon-heading";
+
+const projectIcons: Record<string, HeadingIconName> = {
+  "formula-student": "car",
+  "parallel-waist": "mechanism",
+  "insect-dexterous-grasping": "gripper",
+  "honeybee-adhesion": "leaf",
+  "origami-wall-climbing-robot": "fold",
+};
 
 function ProjectPreview({ project }: { project: Project }) {
   const href = `/projects/${project.id}`;
@@ -14,7 +23,7 @@ function ProjectPreview({ project }: { project: Project }) {
       )}
       <div className="project-body">
         <p className="project-category">{project.category}</p>
-        <h3><a href={href}>{project.shortTitle}</a></h3>
+        <IconHeading as="h3" icon={projectIcons[project.id] ?? "tools"}><a href={href}>{project.shortTitle}</a></IconHeading>
         <p className="meta">{[project.period, project.role].filter(Boolean).join(" · ")}</p>
         <p>{project.summary}</p>
       </div>
