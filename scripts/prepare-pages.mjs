@@ -48,6 +48,12 @@ export async function preparePages(root) {
   }
   if (missing.size) throw new Error(`Broken internal links: ${[...missing].join(', ')}`);
 
+  // Font redistribution must include the original copyright and OFL notices.
+  if ([...used].some(url => url.startsWith('/fonts/'))) {
+    await checkLink('/fonts/LICENSES.txt', 'https://xiangyv.me/');
+    if (missing.size) throw new Error('Missing font license notices');
+  }
+
   // Remove only generated copies of unused local assets, never source files.
   // This keeps withdrawn posts, certificates and duplicate PPT extractions offline.
   for (const [url] of publicByUrl) {

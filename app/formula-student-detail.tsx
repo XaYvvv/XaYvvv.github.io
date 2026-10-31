@@ -46,6 +46,7 @@ const sections = [
   ["overview", "项目概述"],
   ["design-goals", "工程目标"],
   ["suspension", "轮胎与悬架"],
+  ["lightweight", "结构轻量化"],
   ["manufacturing", "制造与装配"],
   ["validation", "测试验证"],
   ["team", "团队协作"],
@@ -59,7 +60,7 @@ export function FormulaStudentDetail() {
         <p className="project-category">工程实践 · BITFSAE</p>
         <h1>大学生方程式赛车设计与制造</h1>
         <p className="meta">2020—2024 · 北京理工大学方程式车队</p>
-        <p>底盘设计、车辆动力学分析、结构开发与整车测试。</p>
+        <p>悬架与转向设计、车辆动力学、结构轻量化、轮端集成与整车测试。</p>
         <p><a href="https://www.bitfsae.com/" target="_blank" rel="noreferrer">车队官网 ↗</a></p>
       </header>
 
@@ -96,12 +97,55 @@ export function FormulaStudentDetail() {
         <p>负责悬架硬点、轮跳与转向运动学设计，分析侧倾中心、外倾角和前束随悬架行程的变化。结合刚度梯度计算及 ADAMS、MATLAB 仿真，对悬架几何、弹簧刚度与阻尼设定进行迭代，并以实车定位和动态测试反馈修正参数。</p>
         <TechnicalFigure file="tire-suspension-workflow.png" caption="轮胎机理分析、悬架仿真、零部件开发与实车验证流程。" />
         <p className="fsae-source-note">橡胶摩擦机理示意来源：Continental AG（见原图标注）。</p>
+        <figure className="fsae-simulation">
+          <video src={assetRoot + "adams-suspension.mp4"} poster={assetRoot + "adams-suspension-poster.jpg"} autoPlay muted loop playsInline preload="metadata" aria-label="ADAMS 悬架运动及载荷矢量仿真演示" />
+          <figcaption>ADAMS 悬架仿真：车轮运动、推杆与弹簧阻尼单元响应，以及载荷矢量变化。</figcaption>
+        </figure>
+      </section>
+
+      <section id="lightweight" aria-labelledby="fsae-lightweight-heading">
+        <h2 id="fsae-lightweight-heading">结构轻量化：载荷获取与方案比较</h2>
+        <p>以悬架摇臂、立柱和转向支架为对象，将载荷输入、连接约束、设计空间和制造条件纳入结构优化。工作包括 2022 年摇臂衍生式设计研究，以及 2024 年车队零部件优化设计指导。</p>
+
+        <h3>悬架摇臂：衍生式设计与拓扑优化</h3>
+        <p className="meta">2022 ·《基于 FSAE 的结构件衍生式轻量化设计》· 报告第一作者</p>
+        <p>通过推杆连接处的力传感器获取载荷，选取记录中的约 2500 N 峰值，并与 ADAMS 转向制动工况下的 2311 N 仿真结果对照。基于连接位置、载荷及装配空间，分别采用 Fusion 360 衍生式设计和 Altair Inspire 拓扑优化生成摇臂方案，再进行几何重构和静力分析。</p>
+        <div className="fsae-design-grid">
+          <TechnicalFigure file="rocker-generative.png" caption="Fusion 360 衍生式设计的摇臂方案。" />
+          <TechnicalFigure file="rocker-topology.png" caption="Inspire 拓扑优化及 PolyNURBS 重构方案。" />
+        </div>
+        <details className="fsae-load-record">
+          <summary>推杆载荷采集记录</summary>
+          <TechnicalFigure file="pushrod-load-trace.png" caption="报告中的推杆受力记录，作为摇臂设计的载荷输入参考。" />
+        </details>
+
+        <h3>立柱与转向支架：轻量化方案评估</h3>
+        <p className="meta">2024 · 银鲨 XIII 赛车零部件优化设计 · 团队技术指导</p>
+        <p>在保留轴承、悬架连接及安装接口的基础上，对立柱进行拓扑优化与几何重构；转向支架结合拓扑优化和衍生式设计，比较质量、位移与应力结果，并考虑金属增材制造条件。</p>
+        <div className="fsae-design-grid">
+          <TechnicalFigure file="upright-optimized.png" caption="后立柱优化与重构方案。" />
+          <TechnicalFigure file="steering-bracket-optimized.png" caption="转向支架衍生式设计方案。" />
+        </div>
+        <div className="fsae-comparison-scroll">
+          <table className="fsae-comparison">
+            <caption>2024 年报告中的模型质量对比</caption>
+            <thead><tr><th scope="col">部件与比较基准</th><th scope="col">基准质量</th><th scope="col">优化方案</th><th scope="col">减重比例</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">后立柱 · CNC 方案</th><td>756 g</td><td>556 g</td><td>26.5%</td></tr>
+              <tr><th scope="row">转向支架 · 原方案</th><td>81.7 g</td><td>50.2 g</td><td>38.6%</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="fsae-source-note">数值来自设计报告中的模型对比；后立柱以 CNC 方案为基准。强度与刚度需结合各方案的材料、载荷和制造条件单独评估。</p>
       </section>
 
       <section id="manufacturing" aria-labelledby="fsae-manufacturing-heading">
         <h2 id="fsae-manufacturing-heading">结构设计、制造与装配</h2>
         <p>围绕制动、转弯及路面冲击等载荷工况开展载荷分析、有限元校核与拓扑优化，检查杆件、轴承、摇臂支座和车架安装点的受力与变形，评估连接柔度对车轮定位参数的影响。</p>
         <p>将加工基准、焊接可达性、装配顺序、工具间隙、标准件选型及公差链纳入工程图纸与制造跟进，兼顾结构性能、定位调节范围和维修空间。机械系统统筹阶段进一步协调悬架、传动、制动及电气系统的布置与接口。</p>
+        <div className="fsae-wheel-cad">
+          <TechnicalFigure file="wheel-end-cad.png" caption="轮端总成 CAD 模型：齿轮传动、壳体与制动部件的空间布置。" />
+        </div>
         <div className="fsae-photo-grid">
           <Photo name="rear-assembly" caption="后部悬架、传动系统及周边总成布置。" />
           <Photo name="wheel-assembly" caption="轮端总成与制动、传动接口。" />
@@ -155,7 +199,7 @@ export function FormulaStudentDetail() {
         </ul>
       </section>
 
-      <footer><a href="/#projects">← 返回项目列表</a><p>项宇 · 更新于 2026 年 9 月</p></footer>
+      <footer><a href="/#projects">← 返回项目列表</a><p>项宇 · 更新于 2026 年 10 月</p></footer>
     </main>
   );
 }

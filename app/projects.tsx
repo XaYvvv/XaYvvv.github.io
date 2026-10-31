@@ -15,20 +15,28 @@ function ProjectPreview({ project }: { project: Project }) {
       <div className="project-body">
         <p className="project-category">{project.category}</p>
         <h3><a href={href}>{project.shortTitle}</a></h3>
-        <p className="meta">{project.period} · {project.role}</p>
+        <p className="meta">{[project.period, project.role].filter(Boolean).join(" · ")}</p>
         <p>{project.summary}</p>
-        <p className="project-links"><a href={href}>Project details →</a></p>
       </div>
     </article>
   );
 }
 
 export function ProjectList() {
+  const featuredOrder = [
+    "formula-student",
+    "parallel-waist",
+    "insect-dexterous-grasping",
+    "honeybee-adhesion",
+    "origami-wall-climbing-robot",
+  ];
+  const rank = (id: string) => {
+    const index = featuredOrder.indexOf(id);
+    return index === -1 ? featuredOrder.length : index;
+  };
   const visibleProjects = projects
     .filter((project) => !publicationProjectIds.has(project.id))
-    .sort((a, b) =>
-      Number(b.id === "insect-dexterous-grasping") - Number(a.id === "insect-dexterous-grasping")
-    );
+    .sort((a, b) => rank(a.id) - rank(b.id));
 
   return (
     <div className="project-list">

@@ -46,9 +46,13 @@ export default defineConfig(async () => {
 
   return {
     css: { postcss: { plugins: [tailwindcss()] } },
-    server: isCodexSeatbeltSandbox
-      ? { watch: { useFsEvents: false, usePolling: true } }
-      : undefined,
+    server: {
+      watch: {
+        // Reference documents may be locked by Office; they are not app inputs.
+        ignored: [/\.(?:docx?|pptx?|pdf)$/i, /[\\/]tmp[\\/]/],
+        ...(isCodexSeatbeltSandbox ? { useFsEvents: false, usePolling: true } : {}),
+      },
+    },
     plugins: [
       vinext(),
       sites(),

@@ -4,6 +4,8 @@ import { ProjectEvidence, EvidenceNavigation } from "../../project-evidence";
 import { FormulaStudentDetail } from "../../formula-student-detail";
 import { HoneybeeDetail } from "../../honeybee-detail";
 import { OrigamiDetail } from "../../origami-detail";
+import { ParallelWaistDetail } from "../../parallel-waist-detail";
+import { InsectGraspingDetail } from "../../insect-grasping-detail";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -15,6 +17,18 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props) {
   const project = getProject((await params).slug);
+  if (project?.id === "insect-dexterous-grasping") {
+    return {
+      title: "昆虫足端启发的灵巧抓取（在研） | 项宇",
+      description: "以马岛蟑螂足端为对象，研究分段跗节、固液耦合湿黏附、柔顺指端与可控脱附的协同设计。",
+    };
+  }
+  if (project?.id === "parallel-waist") {
+    return {
+      title: "WaistSimulator：机器人腰部并联机构设计与分析 | 项宇",
+      description: "从机构草图到 Python 桌面分析工具：Roll/Pitch 正逆运动学、可达域、单质点载荷、雅可比及 AI 辅助开发过程。",
+    };
+  }
   if (project?.id === "origami-wall-climbing-robot") {
     return {
       title: "折纸式仿昆虫爬壁机器人 | 项宇",
@@ -53,6 +67,8 @@ function ProjectFigure({ figure }: { figure: Figure }) {
 export default async function ProjectPage({ params }: Props) {
   const project = getProject((await params).slug);
   if (!project) notFound();
+  if (project.id === "insect-dexterous-grasping") return <InsectGraspingDetail />;
+  if (project.id === "parallel-waist") return <ParallelWaistDetail />;
   if (project.id === "formula-student") return <FormulaStudentDetail />;
   if (project.id === "honeybee-adhesion") return <HoneybeeDetail />;
   if (project.id === "origami-wall-climbing-robot") return <OrigamiDetail />;

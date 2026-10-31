@@ -8,6 +8,11 @@ type NewsItem = {
 // Unverified dates stay null; supplied titles are retained until verified.
 const items: NewsItem[] = [
   {
+    title: "2026年研究生国家奖学金获奖学生公示（感谢赵杰亮导师~）",
+    href: "https://grd.bit.edu.cn/tzgg1/d364fe495b1e4f2397027cf4fa16851d.htm",
+    publishedAt: "2026-10-23",
+  },
+  {
     title: "助力青年成长 车企如何念好“人才经”",
     href: "https://zqb.cyol.com/html/2023-12/14/nw.D110000zgqnb_20231214_1-12.htm",
     publishedAt: "2023-12-14",

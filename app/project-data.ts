@@ -27,6 +27,21 @@ const base = "/research/ppt/";
 
 export const projects: Project[] = [
   {
+    id: "parallel-waist",
+    title: "WaistSimulator: Parallel Robotic Waist Design & Analysis",
+    shortTitle: "WaistSimulator: Parallel Waist Design & Analysis",
+    category: "Robotics · Engineering software",
+    role: "Mechanism definition & AI-assisted development",
+    period: "",
+    summary: "A Python tool for parallel-waist kinematics, workspace and load analysis.",
+    question: "How can a compact parallel waist balance orientation range, transmission quality and actuator loads?",
+    work: [],
+    outcome: "WaistSimulator V6.2 supports kinematic and load analysis, data export and Windows single-file packaging. Geometry and smoothness optimization remain future directions.",
+    image: { src: "/research/parallel-waist/reference-schematic.png", caption: "Original two-DoF parallel waist schematic." },
+    animatedCover: { src: "/research/parallel-waist/motion-cover-axes.webp", poster: "/research/parallel-waist/reference-schematic.png", alt: "Animated parallel waist mechanism with complete three-dimensional coordinate axes", type: "image" },
+    figures: [],
+  },
+  {
     id: "honeybee-adhesion",
     title: "Controllable Adhesion in Extreme Environments & Honeybee Footpad Interface Mechanics",
     shortTitle: "Extreme-Environment Adhesion & Honeybee Footpad Mechanics",
@@ -151,7 +166,7 @@ export const projects: Project[] = [
     category: "Research project · In progress",
     role: "Independent research",
     period: "In progress",
-    summary: "Explore insect-inspired adhesive fingertips and motion strategies for dexterous grasping, with planned integration on an open-source robotic hand platform.",
+    summary: "Investigate insect-inspired wet adhesion and segmented, tendon-driven fingertips for conformal contact, load transfer and controlled release.",
     question: "Can insect footpad adhesion and leg trajectories guide fingertip contact and release in a robotic hand?",
     work: [
       { label: "Research direction", text: "Study wet-adhesion mechanisms and insect leg trajectories to inform bioinspired fingertip structures and grasping motions." },

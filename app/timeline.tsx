@@ -2,8 +2,12 @@ const milestones = [
   {
     date: "2020.10",
     dateTime: "2020-10",
+    ongoing: true,
     organization: "Beijing Institute of Technology",
-    milestone: "Started undergraduate studies",
+    education: [
+      { degree: "Undergraduate", start: "2020.10", startTime: "2020-10", end: "2024", endTime: "2024" },
+      { degree: "Master’s student", field: "Mechanical Engineering", start: "2024.09", startTime: "2024-09", end: "Present", endTime: undefined },
+    ],
     logo: "/research/gallery/PPT-image13-preview.webp",
     logoAlt: "Beijing Institute of Technology logo",
     href: "https://english.bit.edu.cn/",
@@ -30,19 +34,12 @@ const milestones = [
     href: "https://me.bit.edu.cn/szdw/jsml/zzgcx/jxsjjys/bssds18/011124976e4b4967affa67c6f99e2e19.htm",
   },
   {
-    date: "2024.09",
-    dateTime: "2024-09",
-    organization: "Beijing Institute of Technology",
-    milestone: "Started master’s studies in Mechanical Engineering",
-    logo: "/research/gallery/PPT-image13-preview.webp",
-    logoAlt: "Beijing Institute of Technology logo",
-    href: "https://english.bit.edu.cn/",
-  },
-  {
     date: "2026.08",
     dateTime: "2026-08",
+    endDate: "2026.10",
+    endDateTime: "2026-10",
     organization: "ByteDance Seed Robotics",
-    milestone: "Joined as a Robotics Hardware Intern",
+    milestone: "Robotics Hardware Intern (Mechanical Engineering)",
     logo: "/logos/bytedance-seed-wordmark.svg",
     logoAlt: "ByteDance Seed official wordmark",
     href: "https://seed.bytedance.com/zh/direction/robotics",
@@ -61,13 +58,26 @@ export function Timeline() {
               {item.endDate && (
                 <> – <time dateTime={item.endDateTime}>{item.endDate}</time></>
               )}
+              {item.ongoing && " – Present"}
             </p>
             <div className="timeline-detail">
               <div className={`timeline-logo ${item.logoClass ?? ""}`}>
                 <img src={item.logo} alt={item.logoAlt} width="148" height="48" loading="lazy" />
               </div>
               <h4><a href={item.href} target="_blank" rel="noreferrer">{item.organization}</a></h4>
-              <p>{item.milestone}</p>
+              {item.education ? (
+                <dl className="education-stages">
+                  {item.education.map(stage => (
+                    <div key={stage.startTime}>
+                      <dt>{stage.degree}</dt>
+                      <dd>
+                        <time dateTime={stage.startTime}>{stage.start}</time> – {stage.endTime ? <time dateTime={stage.endTime}>{stage.end}</time> : stage.end}
+                        {stage.field && <span>{stage.field}</span>}
+                      </dd>
+                    </div>
+                  ))}
+                </dl>
+              ) : <p>{item.milestone}</p>}
             </div>
           </li>
         ))}

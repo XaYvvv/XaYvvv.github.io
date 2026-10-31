@@ -1,6 +1,7 @@
 import { ProjectList } from "./projects";
 import { Timeline } from "./timeline";
 import { newsItems } from "./news-data";
+import { SectionNav } from "./section-nav";
 
 const links = {
   bit: "https://english.bit.edu.cn/",
@@ -75,19 +76,18 @@ function LinkedAuthors({ text, linkAdvisor = true }: { text: string; linkAdvisor
 
 export default function Home() {
   return (
-    <main className="page home-page">
-      <h1>
-        Yu Xiang <span>「项宇」</span>
-      </h1>
+    <>
+      <header className="site-header">
+        <div className="site-header-inner">
+          <h1 className="site-brand">
+            <a href="#" aria-label="Yu Xiang — back to top">Yu Xiang <span>「项宇」</span></a>
+          </h1>
+          <SectionNav />
+        </div>
+      </header>
+      <main className="page home-page">
 
-      <nav className="section-nav" aria-label="Main sections">
-        <a href="#about">About</a>
-        <a href="#publications">Publications</a>
-        <a href="#projects">Projects</a>
-        <a href="#news">News</a>
-      </nav>
-
-      <section className="bio" id="about" aria-labelledby="about-heading">
+      <section className="bio content-panel" id="about" aria-labelledby="about-heading">
         <aside>
           <img className="portrait" src="/portrait.webp" alt="Portrait of Yu Xiang" />
           <p className="profile-role">Mechanical Engineering<br />Bioinspired Robotics</p>
@@ -107,38 +107,21 @@ export default function Home() {
           <h2 id="about-heading">About</h2>
           <p>
             I am a master&apos;s student in Mechanical Engineering at{" "}
-            <strong>
-              <a href={links.bit} target="_blank" rel="noreferrer">
-                Beijing Institute of Technology
-              </a>
-            </strong>, working in the
-            Laboratory of Biological Intelligence and Biomimetics under the
-            supervision of{" "}
+            <a href={links.bit} target="_blank" rel="noreferrer">
+              Beijing Institute of Technology
+            </a>, supervised by{" "}
             <a href={links.advisor} target="_blank" rel="noreferrer">
               Prof. Jieliang Zhao
-            </a>. I am currently a Robotics Hardware Intern at{" "}
-            <strong>
-              <a href={links.byteDance} target="_blank" rel="noreferrer">
-                ByteDance Seed Robotics
-              </a>
-            </strong>.
+            </a> in BIB Lab.
           </p>
           <p>
-            My work spans biological observation, interfacial mechanics, structural
-            design and robotic hardware. I have also worked on soft robots,
-            dexterous hands and{" "}
-            <a href={links.formulaStudent} target="_blank" rel="noreferrer">
-              Formula Student vehicle systems
-            </a>.
+            My research focuses on bioinspired adhesion, soft robotics and
+            dexterous manipulation.
           </p>
           <p>
-            <strong>Research Interest:</strong> Bioinspired adhesion, biomechanics,
-            soft actuators and dexterous manipulation.
-          </p>
-          <p>
-            <strong>Research Question:</strong> How can biological attachment
-            strategies be translated into robust interfaces and mechanisms for
-            wearable devices and robots?
+            I am currently seeking mechanical engineering roles in robotics,
+            consumer electronics, medical devices and related fields. Please{" "}
+            <a href="mailto:xyu8468@gmail.com">get in touch</a> to discuss opportunities.
           </p>
           <p>
             Email: <a href="mailto:xyu8468@gmail.com">xyu8468@gmail.com</a>
@@ -147,9 +130,7 @@ export default function Home() {
         <Timeline />
       </section>
 
-      <hr />
-
-      <section className="simple-section" id="publications" aria-labelledby="publications-heading">
+      <section className="simple-section content-panel" id="publications" aria-labelledby="publications-heading">
         <h2 id="publications-heading">Publications</h2>
         <div className="entry-list">
           {publications.map((paper) => (
@@ -159,15 +140,12 @@ export default function Home() {
               </a>
               <div className="entry-body">
                 <h3>
-                  <a href={paper.href} target="_blank" rel="noreferrer">
-                    {paper.title}
+                  <a className="publication-title-link" href={paper.href} target="_blank" rel="noreferrer">
+                    {paper.title}{" "}<span className="publication-link-hint">link <span aria-hidden="true">↗</span></span>
                   </a>
                 </h3>
                 <p><LinkedAuthors text={paper.authors} linkAdvisor={paper.linkAdvisor} /></p>
-                <p className="venue">
-                  {paper.venue} ·{" "}
-                  <a href={paper.href} target="_blank" rel="noreferrer">[paper]</a>
-                </p>
+                <p className="venue">{paper.venue}</p>
                 <p>{paper.summary}</p>
               </div>
             </article>
@@ -183,20 +161,15 @@ export default function Home() {
           <p className="meta">Manuscript in preparation</p>
           </div>
         </article>
-        <p className="small-note">† Equal contribution. * Corresponding author.</p>
       </section>
 
-      <hr />
-
-      <section className="simple-section" id="projects" aria-labelledby="projects-heading">
+      <section className="simple-section content-panel" id="projects" aria-labelledby="projects-heading">
         <h2 id="projects-heading">Projects</h2>
         <ProjectList />
       </section>
 
-      <hr />
-
-      <section className="simple-section" id="news" aria-labelledby="news-heading">
-        <h2 id="news-heading">NEWS</h2>
+      <section className="simple-section content-panel" id="news" aria-labelledby="news-heading">
+        <h2 id="news-heading">Media &amp; Activities</h2>
         <ul className="dated-list news-list">
           {newsItems.map((item) => (
             <li key={item.href}>
@@ -214,8 +187,9 @@ export default function Home() {
       </section>
 
       <footer>
-        <p>Last updated September 2026 · Beijing, China</p>
+        <p>Last updated October 2026 · Beijing, China</p>
       </footer>
     </main>
+    </>
   );
 }
