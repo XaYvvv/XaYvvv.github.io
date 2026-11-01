@@ -193,6 +193,16 @@ a:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
 .bio-text strong { font-weight: 600; }
 .contact-line { display: flex; align-items: center; gap: 9px; }
 .contact-line .heading-icon { width: 20px; height: 20px; margin-top: 0; }
+.wechat-contact { position: relative; width: fit-content; max-width: 100%; margin: 0 0 15px; }
+.wechat-trigger { padding: 0; border: 0; background: none; color: inherit; line-height: inherit; text-align: left; cursor: pointer; }
+.wechat-trigger > span { text-decoration: underline dotted #a9bdce; text-underline-offset: 4px; }
+.wechat-trigger:hover, .wechat-trigger:focus-visible { color: var(--link); }
+.wechat-trigger:focus-visible { outline: 2px solid var(--link); outline-offset: 5px; border-radius: 3px; }
+.wechat-popover { position: absolute; z-index: 10; top: calc(100% + 10px); left: 29px; width: min(220px, calc(100vw - 76px)); padding: 10px; border: 1px solid var(--panel-border); border-radius: 12px; background: #fff; box-shadow: 0 8px 28px rgb(37 66 90 / 14%); }
+.wechat-popover[hidden] { display: none; }
+.wechat-popover::before { content: ""; position: absolute; top: -11px; left: 0; right: 0; height: 11px; }
+.wechat-popover a, .wechat-popover img { display: block; width: 100%; }
+.wechat-popover img { height: auto; }
 .profile-role { margin: 14px 0 0; color: var(--muted); font-size: 14px; }
 .journey { grid-column: 1 / -1; min-width: 0; }
 .journey h3 { margin: 0 0 22px; font-size: 18px; font-weight: 600; }

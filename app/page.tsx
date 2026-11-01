@@ -3,6 +3,7 @@ import { Timeline } from "./timeline";
 import { newsItems } from "./news-data";
 import { SectionNav } from "./section-nav";
 import { HeadingIcon, IconHeading } from "./icon-heading";
+import { WechatContact } from "./wechat-contact";
 
 const links = {
   bit: "https://english.bit.edu.cn/",
@@ -127,7 +128,7 @@ export default function Home() {
             <HeadingIcon name="email" />
             <span>Email: <a href="mailto:xyu8468@gmail.com">xyu8468@gmail.com</a></span>
           </p>
-          <p className="contact-line"><HeadingIcon name="wechat" /><span>Wechat：XYv6626</span></p>
+          <WechatContact><HeadingIcon name="wechat" /></WechatContact>
         </div>
         <Timeline />
       </section>
