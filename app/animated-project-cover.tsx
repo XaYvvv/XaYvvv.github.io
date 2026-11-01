@@ -12,7 +12,7 @@ export function AnimatedProjectCover({ cover, href, title }: { cover: AnimatedCo
     <div className="project-thumbnail animated-project-cover">
       <a href={href} aria-label={`Read project: ${title}`}>
         {cover.type === "video" ? (
-          <DeferredVideo src={cover.src} poster={cover.poster} label={cover.alt} />
+          <DeferredVideo src={cover.src} poster={cover.poster} label={cover.alt} preloadDistance={1000} />
         ) : (
           <img src={cover.src} alt={cover.alt} decoding="async" loading="lazy" />
         )}
