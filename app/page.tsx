@@ -120,9 +120,17 @@ export default function Home() {
             dexterous manipulation.
           </p>
           <p>
+            My projects span humanoid robot hardware, dexterous mechanisms and
+            Formula Student chassis, from CAD and simulation to prototyping and
+            assembly. I use SolidWorks, Abaqus, ADAMS and MuJoCo, alongside Codex
+            for engineering tool development.
+          </p>
+          <p>
             I am currently seeking mechanical engineering roles in robotics,
-            consumer electronics, medical devices and related fields. Please{" "}
-            <a href="mailto:xyu8468@gmail.com">get in touch</a> to discuss opportunities.
+            consumer electronics, medical devices and related fields. I would be
+            grateful for the opportunity to{" "}
+            <a href="mailto:xyu8468@gmail.com">connect</a> and discuss how I could
+            contribute to your team.
           </p>
           <p className="contact-line">
             <HeadingIcon name="email" />
