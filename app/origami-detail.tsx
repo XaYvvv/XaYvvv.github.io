@@ -38,20 +38,20 @@ export function OrigamiDetail() {
         <div><dt>6 个微型电机</dt><dd>独立腿部驱动，配合连杆机构传递运动</dd></div>
         <div><dt>PET 折叠机身</dt><dd>平面切割、折叠成形与插装式内骨架</dd></div>
       </dl>
-      <div className="origami-hero"><Figure file="robot-cad.png" eager caption="整机 CAD：六足机构、前后机身与足端模块的空间布局。" /></div>
+      <div className="origami-hero"><Figure file="robot-cad.png" eager caption="整机 CAD：六足机构、前后机身与足端模块的空间布局" /></div>
     </section>
 
     <section id="origami-body" aria-labelledby="origami-body-heading">
       <IconHeading id="origami-body-heading" icon="layers">机身与装配：从平面展开到空间结构</IconHeading>
       <p>机身采用 PET 平面材料切割后折叠成形，展开图中预留折痕、驱动安装孔和减重开口。内部通过平板插装构成支撑骨架，用于定位电机、控制板和外壳，便于分件加工与拆装。</p>
-      <Figure file="body-flat-pattern.png" wide caption="机身二维展开图；黄色虚线为折痕，孔槽对应安装与连接位置。" />
+      <Figure file="body-flat-pattern.png" wide caption="机身二维展开图；黄色虚线为折痕，孔槽对应安装与连接位置" />
       <div className="origami-grid">
-        <Figure file="assembly-exploded.jpeg" caption="分层装配关系：外壳、内部支撑、控制板、腿部和足垫。" />
-        <Figure file="internal-frame.png" caption="插装式内骨架及六个微型电机的布置。" />
+        <Figure file="assembly-exploded.jpeg" caption="分层装配关系：外壳、内部支撑、控制板、腿部和足垫" />
+        <Figure file="internal-frame.png" caption="插装式内骨架及六个微型电机的布置" />
       </div>
       <figure className="origami-animation">
         <DeferredVideo src="/research/optimized/origami-cover.mp4" poster="/research/optimized/origami-cover-poster.webp" width={540} height={404} label="折纸机身折叠与形变演示" />
-        <figcaption>折纸机身样件的形变演示。</figcaption>
+        <figcaption>折纸机身样件的形变演示</figcaption>
       </figure>
     </section>
 
@@ -60,8 +60,8 @@ export function OrigamiDetail() {
       <p>腿部采用四杆连杆机构传递电机输入，并围绕三角步态所需的足端轨迹进行构型设计。腿部末端延伸出三个折纸单元组成的柔性踝部，使足垫相对腿部具有被动调整接触姿态的能力。</p>
       <p>踝部设计以近似球铰的传力方式为目标：传递支撑力，同时减小腿部姿态变化对足垫贴合的影响。报告展示了展开结构和折叠样件，尚未提供关节刚度与转角范围的定量测试。</p>
       <div className="origami-grid">
-        <Figure file="leg-flat-pattern.png" caption="腿部与末端折纸单元的二维展开设计。" />
-        <Figure file="folded-leg.png" caption="折叠后的腿部构型，末端为被动适应踝部。" />
+        <Figure file="leg-flat-pattern.png" caption="腿部与末端折纸单元的二维展开设计" />
+        <Figure file="folded-leg.png" caption="折叠后的腿部构型，末端为被动适应踝部" />
       </div>
     </section>
 
@@ -69,8 +69,8 @@ export function OrigamiDetail() {
       <IconHeading id="origami-steering-heading" icon="cycle">气动颈部转向</IconHeading>
       <p>前后机身之间设置折纸颈部，利用三棱柱形气囊的充气与抽空改变构型，产生头部相对机身的偏转。该机构与足垫共用气压控制设备，并在方案中配合六足驱动完成转向。</p>
       <div className="origami-grid">
-        <Figure file="neck-steering-layout.png" caption="颈部转向机构在前后机身之间的安装位置。" />
-        <Figure file="steering-folded-sample.jpeg" caption="报告中的折纸转向结构样件。" />
+        <Figure file="neck-steering-layout.png" caption="颈部转向机构在前后机身之间的安装位置" />
+        <Figure file="steering-folded-sample.jpeg" caption="报告中的折纸转向结构样件" />
       </div>
     </section>
 
@@ -79,12 +79,12 @@ export function OrigamiDetail() {
       <p>足垫参考负压式黏附结构，采用带内部气路的硅橡胶柔性单元。按报告中的设计，气路充气引起足垫形变，通过接触区域内外的压差产生附着力；这一实现方式与蜜蜂足端的湿黏附机理不同。</p>
       <p>足垫上方设置刚性框架，将柔性单元连接到踝部，并为足垫变形保留空间，减少膨胀过程与腿部机构的干涉。整机方案包含外置气泵与电磁阀，气源并未集成在上述机身尺寸内。</p>
       <div className="origami-grid">
-        <Figure file="pneumatic-footpad.jpeg" caption="柔性足垫、刚性框架及踝部连接关系。" />
-        <Figure file="footpad-channel.png" caption="足垫内部气路的平面设计。" />
+        <Figure file="pneumatic-footpad.jpeg" caption="柔性足垫、刚性框架及踝部连接关系" />
+        <Figure file="footpad-channel.png" caption="足垫内部气路的平面设计" />
       </div>
       <details className="origami-supplement">
         <summary>查看整机气路布置</summary>
-        <div className="origami-hero"><Figure file="pneumatic-system.png" caption="气管连接足垫与转向机构，外置气泵和电磁阀提供气压控制。" /></div>
+        <div className="origami-hero"><Figure file="pneumatic-system.png" caption="气管连接足垫与转向机构，外置气泵和电磁阀提供气压控制" /></div>
       </details>
     </section>
 

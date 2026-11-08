@@ -41,3 +41,9 @@ next-env.d.ts
 *.tsbuildinfo
 /.pages-assets.json
 /PROJECT_SOURCES.md
+
+/docs/
+
+/.vscode/
+
+/打开网页预览.command

@@ -18,10 +18,36 @@ export function ParallelWaistDetail() {
     <header className="project-header">
       <p className="project-category">机器人机构设计</p>
       <h1>WaistSimulator：腰部并联机构分析工具</h1>
+      <section className="waist-architecture" aria-labelledby="waist-architecture-heading">
+        <div>
+          <IconHeading id="waist-architecture-heading" icon="mechanism">人形机器人的结构与自由度</IconHeading>
+          <p>从机器人整体布置出发，人形机器人可以分为头部、躯干、双臂和双腿。自由度的配置应围绕行走、转身和操作等任务，在活动范围、承载能力与结构复杂度之间取舍。腰部连接上、下半身，是理解全身协同运动的一个切入点；本工具进一步关注腰部俯仰与侧倾的两自由度并联机构。</p>
+        </div>
+        <div className="waist-architecture-gallery">
+          <figure className="waist-figure">
+            <a href={base + "humanoid-architecture.png"} target="_blank" rel="noreferrer" aria-label="查看人形机器人整体结构参考图">
+              <img src={base + "humanoid-architecture.png"} width={1032} height={1556} alt="人形机器人整体结构图，展示头部、躯干、双臂、腰部及双腿的布置。" loading="eager" />
+            </a>
+            <figcaption>波士顿动力Atals 电动版一代</figcaption>
+          </figure>
+          <figure className="waist-figure">
+            <a href={base + "humanoid-body-layout.png"} target="_blank" rel="noreferrer" aria-label="查看人形机器人整机结构图">
+              <img src={base + "humanoid-body-layout.png"} width={1248} height={1666} alt="人形机器人整机结构图，展示双臂展开时躯干、腰部和下肢的结构布置。" loading="eager" />
+            </a>
+            <figcaption>Figure01 机器人结构示意</figcaption>
+          </figure>
+          <figure className="waist-figure">
+            <a href={base + "humanoid-joint-layout.png"} target="_blank" rel="noreferrer" aria-label="查看人形机器人关节布置图">
+              <img src={base + "humanoid-joint-layout.png"} width={1282} height={1600} alt="人形机器人关节布置示意图，展示双臂、躯干和双腿沿身体分布的关节位置与方向。" loading="eager" />
+            </a>
+            <figcaption>Figure03 机器人转轴布置</figcaption>
+          </figure>
+        </div>
+      </section>
       <p>针对机器人腰部机构的尺寸设计与驱动选型，分析几何参数对姿态可达域、传动性能及驱动载荷的影响。以下以小鹏 IRON 和智元 X2 的腰部机构作为结构参考。</p>
       <div className="waist-reference-grid">
-        <WaistFigure file="xpeng-iron-reference.png" eager caption="结构参考：小鹏 IRON。" />
-        <WaistFigure file="agibot-x2-reference.png" eager caption="结构参考：智元 X2。" />
+        <WaistFigure file="xpeng-iron-reference.png" eager caption="结构参考：小鹏 IRON" />
+        <WaistFigure file="agibot-x2-reference.png" eager caption="结构参考：智元 X2" />
       </div>
       <p>计算模型采用双电机驱动的 Roll / Pitch 两自由度并联构型：电机安装于动平台，通过曲柄与定长推拉杆连接底座，平台由中心十字铰支撑。模型使用示例尺寸，未针对上述机器人进行参数标定。</p>
       <p className="meta">Python / NumPy / SciPy / Tkinter · V6.2 · Windows</p>
@@ -32,7 +58,7 @@ export function ParallelWaistDetail() {
         <a href="/research/optimized/waist-demo.mp4" target="_blank" rel="noreferrer" aria-label="查看运动仿真演示">
           <DeferredVideo src="/research/optimized/waist-demo.mp4" poster="/research/optimized/waist-demo-poster.webp" width={1344} height={778} label="运动仿真示例：机构姿态与左右曲柄角度" />
         </a>
-        <figcaption>运动仿真示例：机构姿态与左右曲柄角度。</figcaption>
+        <figcaption>运动仿真示例：机构姿态与左右曲柄角度</figcaption>
       </figure>
     </div>
 
@@ -44,8 +70,8 @@ export function ParallelWaistDetail() {
         <li>传动分析：计算雅可比矩阵与奇异性指标，支持运动曲线、计算数据及图表导出。</li>
       </ul>
       <div className="waist-figure-grid">
-        <WaistFigure file="workspace.png" caption="示例尺寸下的姿态可达域，未计入碰撞。" />
-        <WaistFigure file="drive-loads.png" caption="20 kg 单质点负载下的仿真曲线。点击可查看大图。" />
+        <WaistFigure file="workspace.png" caption="示例尺寸下的姿态可达域，未计入碰撞" />
+        <WaistFigure file="drive-loads.png" caption="20 kg 单质点负载下的仿真曲线；点击可查看大图" />
       </div>
     </section>
 

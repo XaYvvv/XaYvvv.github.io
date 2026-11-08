@@ -2,7 +2,8 @@ import materials from "./presentation-materials.json";
 import { projectSections } from "./project-sections";
 
 type Material = { id: string; source: string; src: string; thumbnail?: string; kind: string; size?: number };
-const index = new Map(Object.values(materials).flatMap((groups) => groups.flatMap((group) => group.items)).map((item) => [item.id, item as Material]));
+const galleries: Record<string, { items: Material[] }[]> = materials;
+const index = new Map(Object.values(galleries).flatMap((groups) => groups.flatMap((group) => group.items)).map((item) => [item.id, item]));
 
 function getMaterial(id: string) {
   const item = index.get(id);
@@ -33,7 +34,7 @@ export function ProjectEvidence({ projectId }: { projectId: string }) {
             <a href={item.src} target="_blank" rel="noreferrer" aria-label={`Open full-size ${label}: ${figure.caption}`}>
               <img src={item.thumbnail || item.src} alt={figure.caption} loading="lazy" />
             </a>
-            <figcaption><strong>{label}.</strong> {figure.caption}<span className="evidence-source" title={item.id}>{item.source}</span></figcaption>
+            <figcaption><strong>{label}</strong> {figure.caption}<span className="evidence-source" title={item.id}>{item.source}</span></figcaption>
           </figure>;
         })}
       </div>
@@ -44,7 +45,7 @@ export function ProjectEvidence({ projectId }: { projectId: string }) {
             <source src={video.src} type="video/mp4" />
             <a href={video.src}>Download experimental video</a>
           </video>
-          <figcaption>Experimental recording of footpad contact.<span className="evidence-source">{video.source}</span></figcaption>
+          <figcaption>Experimental recording of footpad contact<span className="evidence-source">{video.source}</span></figcaption>
         </figure> : <p className="evidence-download"><a href={video.src} download>Download the liquid-transport comparison video (.mov, {video.size} MB)</a></p>;
       })()}
     </section>)}

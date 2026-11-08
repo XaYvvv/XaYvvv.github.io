@@ -7,7 +7,9 @@
 - 原始 PPT、PDF 和本地临时目录不属于网站发布包。
 - `public/.gitignore` 根据实际页面引用生成素材白名单；未使用的本地素材不会被普通 Git 提交加入仓库。不要强制添加这些文件。
 - GitHub 自动部署配置在 `.github/workflows/pages.yml`。
-- 已创建公开仓库 [XaYvvv/XaYvvv.github.io](https://github.com/XaYvvv/XaYvvv.github.io)。部署进度请查看仓库 Actions；域名解析尚需接入。
+- 公开仓库为 [XaYvvv/XaYvvv.github.io](https://github.com/XaYvvv/XaYvvv.github.io)。2026-11-08 实测 `https://xiangyv.me/` 返回 HTTP 200，标题为 `XIANG Yu`；本次未登录 DNS 或 Pages 设置后台核对当前记录。
+- 以下“首次关联”和“绑定域名”用于重新搭建或故障排查，现有站点不需要重新执行。部署进度查看仓库 Actions。
+- Node.js 22、pnpm 10.11.0；锁定依赖安装后先运行 `pnpm test`，再运行 `pnpm build:pages`。Pull Request 只运行检查，`main` 推送或手动工作流才部署。
 
 ## 首次关联 GitHub
 
@@ -45,12 +47,16 @@
 ## 以后如何更新
 
 1. 修改 `app/` 里的文字、项目内容，或在 `public/` 增加素材并引用。
-2. 运行 `pnpm dev` 查看本地效果。
-3. 运行 `pnpm build:pages` 检查链接并刷新素材白名单。
-4. 查看 Git 变更，确认公开范围后提交并推送 `main`。
+2. 运行 `pnpm dev:pages` 查看本地效果（原有 `pnpm dev` 的 Vinext 方式仍保留）。
+3. 运行 `pnpm test` 和 `pnpm build:pages`，检查链接、锚点和素材并刷新白名单。
+4. 查看 Git 变更和被跟踪的素材，用户确认上线后提交并推送 `main`。
 5. 等待 Actions 部署成功，正式域名不需要重复配置。
 
-GitHub Pages 不需要持续运行 Node 服务器。项目当前约 75 MiB 的视频可以随 Git 提交（低于单文件 100 MiB），但仍建议后续压缩以提升加载速度。不要使用 Git LFS 来直接托管 Pages 素材。
+GitHub Pages 不需要持续运行 Node 服务器。当前页面使用优化后的媒体；原始大视频可能仍保存在本地和源码历史中，不代表会进入 `out/`。构建会检查单文件及总包大小。不要使用 Git LFS 来直接托管 Pages 素材。
+
+### 回退版本
+
+若某次发布出现问题，先在仓库提交记录中找到出问题的改动，用 `git revert <提交号>` 创建可审查的回退提交，本地完成测试和静态构建后，再按确认上线流程推送 `main`。不要重写远端历史。回退后核对首页、九个项目路由、图片和视频；域名无需重复绑定。
 
 ## 官方参考
 
